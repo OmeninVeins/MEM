@@ -1,6 +1,6 @@
 {
   "campagnes" : [
-    {"name":"Boite de base / La nuit de la Zélatrice", "url":"campagnes/la-nuit-de-la-zelatrice.json", "replace":"9c226c"},
+    {"name":"La nuit de la Zelatrice", "url":"campagnes/la-nuit-de-la-zelatrice.json", "replace":"9c226c"},
   ],
   "scenarios" : [
     {"name":"The Blob that Ate Everything", "url":"scenarios/blob_that_ate_everything.json", "replace":"4dee5a"},
