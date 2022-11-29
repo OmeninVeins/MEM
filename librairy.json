@@ -1,11 +1,11 @@
 {
-  "campagnes" : [
+  "campaigns" : [
     {"name":"Boite de base / La nuit de la Zélatrice", "url":"campagnes/la-nuit-de-la-zelatrice.json", "replace":"0941ea"}
   ],
   "scenarios" : [
     {"name":"The Blob that Ate Everything", "url":"scenarios/blob_that_ate_everything.json", "replace":"4dee5a"},
   ],
-  "investigateurs": [
+  "investigators" : [
     {"name":"Core Investigators", "url":"investigators/core_investigators.json", "replace":"2585f4"},
   ],
   "extras" : [
