@@ -1,0 +1,17 @@
+{
+  "campagnes" : [
+    {"name":"Boite de base / La nuit de la Zélatrice", "url":"campagnes/la-nuit-de-la-zelatrice.json", "replace":"9c226c"},
+  ],
+  "scenarios" : [
+    {"name":"The Blob that Ate Everything", "url":"scenarios/blob_that_ate_everything.json", "replace":"4dee5a"},
+  ],
+  "investigateurs": [
+    {"name":"Core Investigators", "url":"investigators/core_investigators.json", "replace":"2585f4"},
+  ],
+  "extras" : [
+    {"name":"Player Cards by Cycle", "url":"extras/cards_by_cycle.json"},
+    {"name":"Encounter Sets", "url":"extras/encounter_sets.json", "replace":"fcfa7f"},
+    {"name":"Tarot Deck", "url":"extras/tarot_deck.json"},
+    {"name":"Secret Objectives ﹠ Ultimatums", "url":"extras/objectives_ultimatums.json"}
+  ]
+}
