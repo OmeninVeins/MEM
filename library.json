@@ -1,7 +1,13 @@
 {
   "campaigns" : [
     {"name":"La nuit de la Zélatrice", "url":"campaigns/la_nuit _de_la_zelatrice.json", "replace":"0941ea"},
-    {"name":"Night of the Zealot", "url":"campaign/night_of_the_zealot.json", "replace":"64a613"}
+    {"name":"L'Héritage de Dunwich", "url":"campaigns/LHéritage_de_Dunwich.json", "replace":"e073d5"},
+    {"name":"La Route de Carcosa", "url":"campaigns/La_Route_de_Carcosa.json", "replace":"4f52cd"},
+    {"name":"La Civilisation Oubliée", "url":"campaigns/La_Civilisation_Oubliee.json", "replace":"f23d51"},
+    {"name":"Le Cercle Brisé", "url":"campaigns/Le_Cercle_Brise.json", "replace":"dc7cca"},
+    {"name":"Les Dévoreurs de Rêves", "url":"campaigns/Les_Devoreurs_de_Reves.json", "replace":"56780b"},
+    {"name":"La Conspiration d'Innsmouth", "url":"campaigns/La_Conspiration_dInnsmouth.json", "replace":"01c1bc"},
+    {"name":"Aux Confins de la Terre", "url":"campaigns/Aux_Confins_de_la_Terre.json", "replace":"0ad50e"}
   ],
   "scenarios" : [
     {"name":"The Blob that Ate Everything", "url":"scenarios/blob_that_ate_everything.json", "replace":"4dee5a"},
