@@ -1,6 +1,6 @@
 {
   "campaigns" : [
-    {"name":"La nuit de la Zélatrice", "url":"campaign/la-nuit-de-la-zelatrice.json", "replace":"0941ea"}
+    {"name":"La nuit de la Zélatrice", "url":"campaign/la_nuit _de_la_zelatrice.json", "replace":"0941ea"}
   ],
   "scenarios" : [
     {"name":"The Blob that Ate Everything", "url":"scenarios/blob_that_ate_everything.json", "replace":"4dee5a"},
