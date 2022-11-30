@@ -7,7 +7,13 @@
     {"name":"Le Cercle Brisé", "url":"campaigns/Le_Cercle_Brise.json", "replace":"dc7cca"},
     {"name":"Les Dévoreurs de Rêves", "url":"campaigns/Les_Devoreurs_de_Reves.json", "replace":"56780b"},
     {"name":"La Conspiration d'Innsmouth", "url":"campaigns/La_Conspiration_dInnsmouth.json", "replace":"01c1bc"},
-    {"name":"Aux Confins de la Terre", "url":"campaigns/Aux_Confins_de_la_Terre.json", "replace":"0ad50e"}
+    {"name":"Aux Confins de la Terre", "url":"campaigns/Aux_Confins_de_la_Terre.json", "replace":"0ad50e"},
+    {"name":"Renouveau - La Nuit de la Zélatrice", "url":"campaigns/Renouveau_LNZ.json", "replace":"ba381f"},
+    {"name":"Renouveau - L'Héritage de Dunwitch", "url":"campaigns/Renouveau_LHD.json", "replace":"306162"},
+    {"name":"Renouveau - La Route de Carcosa", "url":"campaigns/Renouveau_LRC.json", "replace":"f5ba81"},
+    {"name":"Renouveau - La Civilisation Oubliée", "url":"campaigns/Renouveau _LCO.json", "replace":"7e8582"},
+    {"name":"Renouveau - Le Cercle Brisé", "url":"campaigns/Renouveau_LCB.json", "replace":"65b22b"}
+
   ],
   "scenarios" : [
     {"name":"The Blob that Ate Everything", "url":"scenarios/blob_that_ate_everything.json", "replace":"4dee5a"},
