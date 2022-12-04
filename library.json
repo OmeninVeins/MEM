@@ -34,12 +34,21 @@
     {"name":"The Blob that Ate Everything", "url":"scenarios/blob_that_ate_everything.json", "replace":"4dee5a"},
   ],
   "investigators" : [
-    {"name":"Core Investigators", "url":"investigators/core_investigators.json", "replace":"2585f4"},
+    {"name":"Investigateurs - Boite de base", "url":"investigators/izelatrice.json", "replace":"92e7b2"},
+    {"name":"Investigateurs - L'Héritage de Dunwich", "url":"investigators/idunwich.json", "replace":"154f65"},
+    {"name":"Investigateurs - La Route de Carcosa", "url":"investigators/icarcosa.json", "replace":"ec94e1"},
+    {"name":"Investigateurs - La Civilisation Oubliée", "url":"investigators/icivilisation.json", "replace":"f8189e"},
+    {"name":"Investigateurs - Le Cercle Brisé", "url":"investigators/icercle.json", "replace":"eebe43"},
+    {"name":"Investigateurs - Les Dévoreurs de Rêves", "url":"investigators/idevoreurs.json", "replace":"ba9f48"},
+    {"name":"Investigateurs - La Conspiration d'Innsmouth", "url":"investigators/iinnsmouth.json", "replace":"d916b0"},
+    {"name":"Investigateurs - Aux Confins de la Terre", "url":"investigators/iconfins.json", "replace":"784d7a"},
+    {"name":"Investigateurs - Les Clefs Écarlates", "url":"investigators/iclefs.json", "replace":"7e5f01"},
+    {"name":"Investigateurs - Promos", "url":"investigators/ipromos.json", "replace":"9bef86"},
+    {"name":"Investigateurs - Packs", "url":"investigators/ipacks.json", "replace":"6a2b62"},
+    {"name":"Investigateurs -  Parallèles", "url":"investigators/iparallele.json", "replace":"63b501"}
   ],
   "extras" : [
-    {"name":"Player Cards by Cycle", "url":"extras/cards_by_cycle.json"},
-    {"name":"Encounter Sets", "url":"extras/encounter_sets.json", "replace":"fcfa7f"},
-    {"name":"Tarot Deck", "url":"extras/tarot_deck.json"},
-    {"name":"Secret Objectives ﹠ Ultimatums", "url":"extras/objectives_ultimatums.json"}
+    {"name":"Campagnes mises en place Coolnash", "url":"extras/ccoolnash.json", "replace":"f199f8"},
+    {"name":"Gabarits soutiens", "url":"extras/gabaritscartes.json", "replace":"845644"}
   ]
 }
