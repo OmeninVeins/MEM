@@ -13,7 +13,22 @@
     {"name":"Renouveau - La Route de Carcosa", "url":"campaigns/Renouveau_LRC.json", "replace":"f5ba81"},
     {"name":"Renouveau - La Civilisation Oubliée", "url":"campaigns/Renouveau _LCO.json", "replace":"7e8582"},
     {"name":"Renouveau - Le Cercle Brisé", "url":"campaigns/Renouveau_LCB.json", "replace":"65b22b"}
-
+  ],
+  "players" : [
+    {"name":"Cartes joueur gardien 0XP", "url":"players/gardien0.json", "replace":"a463c0"},
+    {"name":"Cartes joueur chercheur 0XP", "url":"players/chercheur0.json", "replace":"dc460c"},
+    {"name":"Cartes joueur truand 0XP", "url":"players/truand0.json", "replace":"82ac47"},
+    {"name":"Cartes joueur mystique 0XP", "url":"players/mystique0.json", "replace":"3ca970"},
+    {"name":"Cartes joueur survivant 0XP", "url":"players/survivant0.json", "replace":"76cf3d"},
+    {"name":"Cartes joueur neutre 0XP", "url":"players/neutre0.json", "replace":"ba51b3"},
+    {"name":"Cartes joueur gardien 1-5XP", "url":"players/gardienx.json", "replace":"d5f9c8"},
+    {"name":"Cartes joueur chercheur 1-5XP", "url":"players/chercheurx.json", "replace":"bec8c9"},
+    {"name":"Cartes joueur truand 1-5XP", "url":"players/truandx.json", "replace":"8eb852"},
+    {"name":"Cartes joueur mystique 1-5XP", "url":"players/mystiquex.json", "replace":"8360b3"},
+    {"name":"Cartes joueur survivant 1-5 XP", "url":"players/survivantx.json", "replace":"fd30b8"},
+    {"name":"Cartes joueur neutre 1-5 XP", "url":"players/neutrex.json", "replace":"7b4586"},
+    {"name":"Cartes liées", "url":"players/liees.json", "replace":"b155ee"},
+    {"name":"Fiches d'amélioration", "url":"players/amelioration.json", "replace":"ec1f6c"}
   ],
   "scenarios" : [
     {"name":"The Blob that Ate Everything", "url":"scenarios/blob_that_ate_everything.json", "replace":"4dee5a"},
