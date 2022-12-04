@@ -1,0 +1,768 @@
+    {
+      "GUID": "ec94e1",
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -83.50002,
+        "posY": 1.04798758,
+        "posZ": -19.5000038,
+        "rotX": 0.00480285753,
+        "rotY": 179.976639,
+        "rotZ": -0.00147620123,
+        "scaleX": 0.700000465,
+        "scaleY": 0.700000465,
+        "scaleZ": 0.700000465
+      },
+      "Nickname": "Investigateurs - La Route de Carcosa",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://pastebin.com/raw/ALrYhQGb",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1877465994995457916/2BB03D61C2DE6AB9FBE7BF5E5D2C4E029CACCA85/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 6,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "Bag": {
+        "Order": 0
+      },
+      "LuaScript": "packupZone = '60699f' -- change this to the GUID of your own script packupZone\r\nGMNOTE = {'carcosa'} -- set the object you sant the script to be affected with, all other objects will be ignored\r\nadditive = true -- This will disable the save system, allowing you to setup a bag, and then next time you pack up it will only pick up what it already has saved before.\r\nUseBagNameAsButtonName = false\r\n\r\n--Runs whenever game is saved/autosaved\r\nfunction onSave()\r\n --Begin State Managment of Saving Object Data.\r\n --Create GUID list fomr Object List\r\n    if tableSize(memoryData) == 0 then saved_data = \"\" return saved_data\r\n    else\r\n        local data_to_save = { md=memoryData }\r\n        saved_data = JSON.encode(data_to_save)\r\n        --saved_data = \"\" --Remove -- at start + save to clear save data\r\n       return saved_data end\r\n\r\nend\r\n\r\nfunction onload(saved_data)\r\n    if saved_data ~= \"\" then\r\n        local loaded_data = JSON.decode(saved_data)\r\n        --Set up information off of loaded_data\r\n        memoryData = loaded_data.md\r\n    else\r\n        --Set up information for if there is no saved saved data\r\n        memoryData = {}\r\n    end\r\n    SetButtonName()\r\nend\r\n\r\nfunction SetButtonName()\r\n    if UseBagNameAsButtonName then\r\n        PlaceText = self.getName()\r\n        PlaceWidth = string.len(PlaceText)*145\r\n        PlaceHeight = 450\r\n        Scale = {3.2,3.2,3.2}\r\n    else\r\n        PlaceText = 'Placer'\r\n        PlaceWidth = 900\r\n        PlaceHeight = 400\r\n        Scale = {0.9,0.9,0.9}\r\n    end\r\n    self.clearButtons()\r\n    makeButtons()\r\nend\r\n\r\nfunction createSaveData(obj)\r\n    local objData = {position = tableCullNumericIndexes(obj.getPosition()),\r\n                     rotation = tableCullNumericIndexes(obj.getRotation()),\r\n                     guid = obj.getGUID(),\r\n                     lock = obj.getLock(),\r\n                     interactable = tostring(obj.interactable),\r\n                     tooltip = tostring(obj.tooltip)}\r\n\r\n    memoryData[objData.guid] = objData\r\nend\r\n\r\nfunction placeStuff()\r\n    local prams = {}\r\n    for key, entry in pairs(memoryData) do\r\n        prams.guid = key\r\n        prams.position = {entry.position.x, entry.position.y, entry.position.z}\r\n        prams.rotation = {entry.rotation.x, entry.rotation.y, entry.rotation.z}\r\n        local item = self.takeObject(prams)\r\n\r\n        if entry.lock == true then\r\n        item.setPositionSmooth({entry.position.x, entry.position.y, entry.position.z}, false, true)\r\n        item.setRotationSmooth({entry.rotation.x, entry.rotation.y, entry.rotation.z}, false, true)\r\n        item.setLock(entry.lock) end\r\n\r\n        if entry.tooltip == 'false' then item.tooltip = false end\r\n        if entry.interactable == 'false' then item.interactable = false end\r\n\r\n    end\r\n    if additive == true then memoryData = {} end\r\n    SetButtonName()\r\nend\r\n\r\n\r\nfunction pickupStuff()\r\n\r\n    if additive == true then\r\n         -- Grab All Objects in Zone\r\n        for _, obj in ipairs(getObjectFromGUID(packupZone).getObjects()) do\r\n            local add = false\r\n            for _, list in ipairs(GMNOTE) do if obj.getGMNotes() == list then add = true end end\r\n            if add == true then\r\n                createSaveData(obj)\r\n                self.putObject(obj)\r\n            end\r\n            add = true\r\n        end\r\n    end\r\n\r\n    if additive == false then\r\n        for key, entry in pairs(memoryData) do\r\n            self.putObject(getObjectFromGUID(key))\r\n        end\r\n    end\r\n    SetButtonName()\r\nend\r\n\r\nfunction tableSize(t)\r\n    local count = 0\r\n    for key,value in pairs(t) do count = count + 1 end\r\n    return count\r\nend\r\n\r\nfunction tableCullNumericIndexes(t)\r\n    for i in pairs(t) do\r\n        if type(i) == \"number\" then\r\n            table.remove(t, i)\r\n            return tableCullNumericIndexes(t)\r\n        end\r\n    end\r\n    return t\r\nend\r\n\r\nfunction makeButtons(set)\r\n    local buttons = {}\r\n\r\n -- DEFAULT START BUTTONS\r\n    if set == nil then\r\n        button_Place = {\r\n                click_function = 'placeStuff',\r\n                function_owner = self,\r\n                label = PlaceText,\r\n                position = {0, 0.1, 1.8},\r\n                rotation = {0, 0, 0},\r\n                width = PlaceWidth,\r\n                height = PlaceHeight,\r\n                scale = Scale,\r\n                font_size = 250,\r\n                color={0,0,0},\r\n                font_color={1,1,1}}\r\n        table.insert(buttons, button_Place)\r\n\r\n        button_PickUp = {\r\n            click_function = 'pickupStuff',\r\n            function_owner = self,\r\n            label = 'Ranger',\r\n            position = {1.8, 0.1, 0},\r\n            rotation = {0, -90, 0},\r\n            width = 1000,\r\n            height = 400,\r\n            font_size = 250,\r\n            scale = {0.9,0.9,0.9},\r\n            color={0,0,0},\r\n            font_color={1,1,1}}\r\n        table.insert(buttons, button_PickUp) end\r\n -- Create Buttons\r\n    for _, button in ipairs(buttons) do\r\n        self.createButton(button)\r\n    end\r\nend\r\n",
+      "LuaScriptState": "{\"md\":{\"233795\":{\"guid\":\"233795\",\"interactable\":\"true\",\"lock\":false,\"position\":{\"x\":-70.9999389648438,\"y\":0.990991950035095,\"z\":-30.5},\"rotation\":{\"x\":0.00480267964303494,\"y\":180.001678466797,\"z\":-0.00147410004865378},\"tooltip\":\"true\"},\"27c2d1\":{\"guid\":\"27c2d1\",\"interactable\":\"true\",\"lock\":false,\"position\":{\"x\":-64.9999923706055,\"y\":0.991397738456726,\"z\":-27.5010662078857},\"rotation\":{\"x\":-0.00147531169932336,\"y\":89.9922485351563,\"z\":-0.00480267032980919},\"tooltip\":\"true\"},\"5c5d3e\":{\"guid\":\"5c5d3e\",\"interactable\":\"true\",\"lock\":false,\"position\":{\"x\":-83.9999465942383,\"y\":0.990657389163971,\"z\":-30.5},\"rotation\":{\"x\":0.00480279698967934,\"y\":180.002868652344,\"z\":-0.00147404603194445},\"tooltip\":\"true\"},\"73a858\":{\"guid\":\"73a858\",\"interactable\":\"true\",\"lock\":false,\"position\":{\"x\":-84.0000305175781,\"y\":0.990908861160278,\"z\":-27.4998207092285},\"rotation\":{\"x\":-0.00147471076343209,\"y\":90.0012893676758,\"z\":-0.00480173621326685},\"tooltip\":\"true\"},\"754ca1\":{\"guid\":\"754ca1\",\"interactable\":\"true\",\"lock\":false,\"position\":{\"x\":-58.499942779541,\"y\":0.991313636302948,\"z\":-30.4999980926514},\"rotation\":{\"x\":0.00480275135487318,\"y\":180.002746582031,\"z\":-0.0014742820058018},\"tooltip\":\"true\"},\"85c58d\":{\"guid\":\"85c58d\",\"interactable\":\"true\",\"lock\":false,\"position\":{\"x\":-52.5,\"y\":0.991719484329224,\"z\":-27.5000019073486},\"rotation\":{\"x\":-0.00147551251575351,\"y\":89.9883804321289,\"z\":-0.00480262516066432},\"tooltip\":\"true\"},\"9d7f10\":{\"guid\":\"9d7f10\",\"interactable\":\"true\",\"lock\":false,\"position\":{\"x\":-77.4999923706055,\"y\":0.991076052188873,\"z\":-27.5010681152344},\"rotation\":{\"x\":-0.00147426186595112,\"y\":90.0045547485352,\"z\":-0.00480303168296814},\"tooltip\":\"true\"},\"ac8f67\":{\"guid\":\"ac8f67\",\"interactable\":\"true\",\"lock\":false,\"position\":{\"x\":-52.5,\"y\":0.991468012332916,\"z\":-30.5000057220459},\"rotation\":{\"x\":0.00480273133143783,\"y\":179.999252319336,\"z\":-0.00147446349728853},\"tooltip\":\"true\"},\"b4a171\":{\"guid\":\"b4a171\",\"interactable\":\"true\",\"lock\":false,\"position\":{\"x\":-64.9999542236328,\"y\":0.991146326065063,\"z\":-30.5},\"rotation\":{\"x\":0.00480354204773903,\"y\":180.000839233398,\"z\":-0.00147526443470269},\"tooltip\":\"true\"},\"baca28\":{\"guid\":\"baca28\",\"interactable\":\"true\",\"lock\":false,\"position\":{\"x\":-70.9999923706055,\"y\":0.991243302822113,\"z\":-27.5010662078857},\"rotation\":{\"x\":-0.00147386617027223,\"y\":90.0111312866211,\"z\":-0.00480313692241907},\"tooltip\":\"true\"},\"bc93c3\":{\"guid\":\"bc93c3\",\"interactable\":\"true\",\"lock\":false,\"position\":{\"x\":-76.9999542236328,\"y\":0.990837514400482,\"z\":-30.5000057220459},\"rotation\":{\"x\":0.00480292830616236,\"y\":180.007797241211,\"z\":-0.00147352099884301},\"tooltip\":\"true\"},\"ebf051\":{\"guid\":\"ebf051\",\"interactable\":\"true\",\"lock\":false,\"position\":{\"x\":-58.4999885559082,\"y\":0.991564989089966,\"z\":-27.5010681152344},\"rotation\":{\"x\":-0.00147397455293685,\"y\":90.0065307617188,\"z\":-0.00480286730453372},\"tooltip\":\"true\"}}}",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "73a858",
+          "Name": "Card",
+          "Transform": {
+            "posX": -84.00003,
+            "posY": 0.990908861,
+            "posZ": -27.49982,
+            "rotX": -0.00147471076,
+            "rotY": 90.00129,
+            "rotZ": -0.004801736,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Mark Harrigan",
+          "Description": "",
+          "GMNotes": "carcosa",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 301504,
+          "SidewaysCard": true,
+          "CustomDeck": {
+            "3015": {
+              "FaceURL": "https://i.imgur.com/qvcEpA4.jpg",
+              "BackURL": "https://i.imgur.com/tFDcl3p.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "5c5d3e",
+          "Name": "Card",
+          "Transform": {
+            "posX": -83.99995,
+            "posY": 0.9906574,
+            "posZ": -30.5,
+            "rotX": 0.004802797,
+            "rotY": 180.002869,
+            "rotZ": -0.001474046,
+            "scaleX": 0.6,
+            "scaleY": 1.0,
+            "scaleZ": 0.6
+          },
+          "Nickname": "Mark Harrigan",
+          "Description": "",
+          "GMNotes": "carcosa",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CardID": 259610,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2596": {
+              "FaceURL": "https://i.imgur.com/WPYBga4.jpg",
+              "BackURL": "https://i.imgur.com/vB84qMp.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "9d7f10",
+          "Name": "Card",
+          "Transform": {
+            "posX": -77.49999,
+            "posY": 0.991076052,
+            "posZ": -27.5010681,
+            "rotX": -0.00147426187,
+            "rotY": 90.0045547,
+            "rotZ": -0.00480303168,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Minh Thi Phan",
+          "Description": "",
+          "GMNotes": "carcosa",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 1109100,
+          "SidewaysCard": true,
+          "CustomDeck": {
+            "11091": {
+              "FaceURL": "https://i.imgur.com/qvcEpA4.jpg",
+              "BackURL": "https://i.imgur.com/tFDcl3p.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "bc93c3",
+          "Name": "Card",
+          "Transform": {
+            "posX": -76.9999542,
+            "posY": 0.9908375,
+            "posZ": -30.5000057,
+            "rotX": 0.00480292831,
+            "rotY": 180.0078,
+            "rotZ": -0.001473521,
+            "scaleX": 0.6,
+            "scaleY": 1.0,
+            "scaleZ": 0.6
+          },
+          "Nickname": "Minh Thi Phan",
+          "Description": "",
+          "GMNotes": "carcosa",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CardID": 259711,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2597": {
+              "FaceURL": "https://i.imgur.com/WPYBga4.jpg",
+              "BackURL": "https://i.imgur.com/vB84qMp.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "baca28",
+          "Name": "Card",
+          "Transform": {
+            "posX": -70.99999,
+            "posY": 0.9912433,
+            "posZ": -27.5010662,
+            "rotX": -0.00147386617,
+            "rotY": 90.01113,
+            "rotZ": -0.004803137,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Sefina Rousseau",
+          "Description": "",
+          "GMNotes": "carcosa",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 1109202,
+          "SidewaysCard": true,
+          "CustomDeck": {
+            "11092": {
+              "FaceURL": "https://i.imgur.com/qvcEpA4.jpg",
+              "BackURL": "https://i.imgur.com/tFDcl3p.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "233795",
+          "Name": "Card",
+          "Transform": {
+            "posX": -70.99994,
+            "posY": 0.99099195,
+            "posZ": -30.5,
+            "rotX": 0.00480267964,
+            "rotY": 180.001678,
+            "rotZ": -0.0014741,
+            "scaleX": 0.6,
+            "scaleY": 1.0,
+            "scaleZ": 0.6
+          },
+          "Nickname": "Sefina Rousseau",
+          "Description": "",
+          "GMNotes": "carcosa",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CardID": 259512,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2595": {
+              "FaceURL": "https://i.imgur.com/WPYBga4.jpg",
+              "BackURL": "https://i.imgur.com/vB84qMp.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "27c2d1",
+          "Name": "Card",
+          "Transform": {
+            "posX": -64.99999,
+            "posY": 0.991397738,
+            "posZ": -27.5010662,
+            "rotX": -0.0014753117,
+            "rotY": 89.99225,
+            "rotZ": -0.00480267033,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Akachi Onyele",
+          "Description": "",
+          "GMNotes": "carcosa",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 1108801,
+          "SidewaysCard": true,
+          "CustomDeck": {
+            "11088": {
+              "FaceURL": "https://i.imgur.com/qvcEpA4.jpg",
+              "BackURL": "https://i.imgur.com/tFDcl3p.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "b4a171",
+          "Name": "Card",
+          "Transform": {
+            "posX": -64.9999542,
+            "posY": 0.9911463,
+            "posZ": -30.5,
+            "rotX": 0.004803542,
+            "rotY": 180.000839,
+            "rotZ": -0.00147526443,
+            "scaleX": 0.6,
+            "scaleY": 1.0,
+            "scaleZ": 0.6
+          },
+          "Nickname": "Akachi Onyele",
+          "Description": "",
+          "GMNotes": "carcosa",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CardID": 259813,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2598": {
+              "FaceURL": "https://i.imgur.com/WPYBga4.jpg",
+              "BackURL": "https://i.imgur.com/vB84qMp.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "ebf051",
+          "Name": "Card",
+          "Transform": {
+            "posX": -58.49999,
+            "posY": 0.991565,
+            "posZ": -27.5010681,
+            "rotX": -0.00147397455,
+            "rotY": 90.00653,
+            "rotZ": -0.0048028673,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "William Yorick",
+          "Description": "",
+          "GMNotes": "carcosa",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 1108903,
+          "SidewaysCard": true,
+          "CustomDeck": {
+            "11089": {
+              "FaceURL": "https://i.imgur.com/qvcEpA4.jpg",
+              "BackURL": "https://i.imgur.com/tFDcl3p.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "754ca1",
+          "Name": "Card",
+          "Transform": {
+            "posX": -58.4999428,
+            "posY": 0.991313636,
+            "posZ": -30.4999981,
+            "rotX": 0.00480275135,
+            "rotY": 180.002747,
+            "rotZ": -0.001474282,
+            "scaleX": 0.6,
+            "scaleY": 1.0,
+            "scaleZ": 0.6
+          },
+          "Nickname": "William Yorick",
+          "Description": "",
+          "GMNotes": "carcosa",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CardID": 259414,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2594": {
+              "FaceURL": "https://i.imgur.com/WPYBga4.jpg",
+              "BackURL": "https://i.imgur.com/vB84qMp.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "85c58d",
+          "Name": "Card",
+          "Transform": {
+            "posX": -52.5,
+            "posY": 0.9917195,
+            "posZ": -27.5000019,
+            "rotX": -0.00147551252,
+            "rotY": 89.98838,
+            "rotZ": -0.004802625,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Lola Hayes",
+          "Description": "",
+          "GMNotes": "carcosa",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 1109005,
+          "SidewaysCard": true,
+          "CustomDeck": {
+            "11090": {
+              "FaceURL": "https://i.imgur.com/qvcEpA4.jpg",
+              "BackURL": "https://i.imgur.com/tFDcl3p.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "ac8f67",
+          "Name": "Card",
+          "Transform": {
+            "posX": -52.5,
+            "posY": 0.991468,
+            "posZ": -30.5000057,
+            "rotX": 0.00480273133,
+            "rotY": 179.999252,
+            "rotZ": -0.0014744635,
+            "scaleX": 0.6,
+            "scaleY": 1.0,
+            "scaleZ": 0.6
+          },
+          "Nickname": "Lola Hayes",
+          "Description": "",
+          "GMNotes": "carcosa",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CardID": 259915,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2599": {
+              "FaceURL": "https://i.imgur.com/WPYBga4.jpg",
+              "BackURL": "https://i.imgur.com/vB84qMp.jpg",
+              "NumWidth": 7,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      ]
+    }
