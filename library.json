@@ -28,7 +28,8 @@
     {"name":"Cartes joueur survivant 1-5 XP", "url":"players/survivantx.json", "replace":"fd30b8"},
     {"name":"Cartes joueur neutre 1-5 XP", "url":"players/neutrex.json", "replace":"7b4586"},
     {"name":"Cartes liées", "url":"players/liees.json", "replace":"b155ee"},
-    {"name":"Fiches d'amélioration", "url":"players/amelioration.json", "replace":"ec1f6c"}
+    {"name":"Fiches d'amélioration", "url":"players/amelioration.json", "replace":"ec1f6c"},
+    {"name":"Faiblesses liées", "url":"players/faiblessesliees.json", "replace":"af8df1"}
   ],
   "scenarios" : [
     {"name":"The Blob that Ate Everything", "url":"scenarios/blob_that_ate_everything.json", "replace":"4dee5a"},
