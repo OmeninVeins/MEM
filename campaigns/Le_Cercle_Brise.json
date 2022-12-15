@@ -2,12 +2,12 @@
   "GUID": "dc7cca",
   "Name": "Custom_Model_Bag",
   "Transform": {
-    "posX": -30.0000248,
-    "posY": 1.76529944,
-    "posZ": 24.9999084,
-    "rotX": -4.49929166E-06,
-    "rotY": 179.96524,
-    "rotZ": 1.5301346E-07,
+    "posX": -55.49994,
+    "posY": 0.9842822,
+    "posZ": 47.0000763,
+    "rotX": 0.00480281934,
+    "rotY": 179.999619,
+    "rotZ": -0.0014744174,
     "scaleX": 0.6144237,
     "scaleY": 0.08580595,
     "scaleZ": 0.6144237
@@ -72,12 +72,12 @@
       "GUID": "06deed",
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": 17.5188637,
-        "posY": 0.9699577,
-        "posZ": 44.5000648,
-        "rotX": 1.37955585E-05,
-        "rotY": 179.9942,
-        "rotZ": -5.97815233E-05,
+        "posX": 17.519,
+        "posY": 0.9699601,
+        "posZ": 44.4999,
+        "rotX": 1.37206325E-05,
+        "rotY": 179.9943,
+        "rotZ": -5.96261925E-05,
         "scaleX": 1.23308516,
         "scaleY": 0.256660283,
         "scaleZ": 1.35025632
@@ -9137,12 +9137,12 @@
       "GUID": "17b4f1",
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": 13.0179949,
-        "posY": 0.969955444,
-        "posZ": 44.50033,
-        "rotX": 1.37199077E-05,
-        "rotY": 180.000351,
-        "rotZ": -5.96572645E-05,
+        "posX": 13.019,
+        "posY": 0.9699554,
+        "posZ": 44.4999,
+        "rotX": 1.37619545E-05,
+        "rotY": 180.0001,
+        "rotZ": -5.96509271E-05,
         "scaleX": 1.20052135,
         "scaleY": 0.249882281,
         "scaleZ": 1.3145982
@@ -21417,12 +21417,12 @@
       "GUID": "25fdac",
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": 8.502682,
+        "posX": 8.5028,
         "posY": 0.9699507,
-        "posZ": 44.5148125,
-        "rotX": 1.38048408E-05,
-        "rotY": 179.9707,
-        "rotZ": -5.95706952E-05,
+        "posZ": 44.515,
+        "rotX": 1.36066537E-05,
+        "rotY": 179.9706,
+        "rotZ": -5.92351862E-05,
         "scaleX": 1.265649,
         "scaleY": 0.263438284,
         "scaleZ": 1.38591444
@@ -30916,11 +30916,11 @@
       "Name": "Custom_Model_Bag",
       "Transform": {
         "posX": -55.5,
-        "posY": 1.0498395,
+        "posY": 1.04983962,
         "posZ": -6.0,
-        "rotX": -0.004802552,
-        "rotY": 359.966858,
-        "rotZ": 0.00147695234,
+        "rotX": -0.00480309175,
+        "rotY": 359.966827,
+        "rotZ": 0.00147690286,
         "scaleX": 0.7,
         "scaleY": 0.7,
         "scaleZ": 0.7
@@ -31791,11 +31791,11 @@
       "Name": "Custom_Model_Bag",
       "Transform": {
         "posX": 22.019,
-        "posY": 0.969965041,
+        "posY": 0.969964862,
         "posZ": 44.4999,
-        "rotX": 1.37934712E-05,
+        "rotX": 1.37059569E-05,
         "rotY": 180.0,
-        "rotZ": -5.962028E-05,
+        "rotZ": -5.95153178E-05,
         "scaleX": 1.265649,
         "scaleY": 0.263438284,
         "scaleZ": 1.38591444
@@ -35532,11 +35532,11 @@
       "Name": "Custom_Model_Bag",
       "Transform": {
         "posX": -9.481,
-        "posY": 0.96993196,
+        "posY": 0.969932,
         "posZ": 44.4999,
-        "rotX": 1.38022206E-05,
+        "rotX": 1.378431E-05,
         "rotY": 180.0031,
-        "rotZ": -5.9563492E-05,
+        "rotZ": -5.96722857E-05,
         "scaleX": 1.13539374,
         "scaleY": 0.2363263,
         "scaleZ": 1.243282
@@ -39022,12 +39022,12 @@
       "GUID": "5936fb",
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": -13.9810009,
-        "posY": 0.9699273,
+        "posX": -13.981,
+        "posY": 0.9699272,
         "posZ": 44.4999,
-        "rotX": 1.38643945E-05,
-        "rotY": 180.000336,
-        "rotZ": -5.94117E-05,
+        "rotX": 1.37548286E-05,
+        "rotY": 180.0003,
+        "rotZ": -5.98341067E-05,
         "scaleX": 1.13539374,
         "scaleY": 0.2363263,
         "scaleZ": 1.243282
@@ -45861,12 +45861,12 @@
       "GUID": "680fe7",
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": 4.019005,
-        "posY": 0.969946,
-        "posZ": 44.49982,
-        "rotX": 1.37640864E-05,
-        "rotY": 179.9998,
-        "rotZ": -5.98782062E-05,
+        "posX": 4.019,
+        "posY": 0.969946146,
+        "posZ": 44.4999,
+        "rotX": 1.37322968E-05,
+        "rotY": 179.999786,
+        "rotZ": -5.969133E-05,
         "scaleX": 1.23308516,
         "scaleY": 0.256660283,
         "scaleZ": 1.35025632
@@ -45917,84 +45917,6 @@
       "LuaScriptState": "{\"ml\":{\"0ac4aa\":{\"lock\":false,\"pos\":{\"x\":-30.7742,\"y\":1.7663,\"z\":24.0037},\"rot\":{\"x\":0,\"y\":0.0001,\"z\":0},\"tint\":{\"a\":0,\"b\":0,\"g\":0,\"r\":0}},\"0e8c1e\":{\"lock\":false,\"pos\":{\"x\":-7.90601062774658,\"y\":1.56942319869995,\"z\":9.49969577789307},\"rot\":{\"x\":0.0109009500592947,\"y\":180.000671386719,\"z\":0.00493978010490537},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"19c352\":{\"lock\":false,\"pos\":{\"x\":15.4999990463257,\"y\":1.50374686717987,\"z\":9.5},\"rot\":{\"x\":-0.00494784582406282,\"y\":269.999938964844,\"z\":0.0108983153477311},\"tint\":{\"a\":1,\"b\":0.604529500007629,\"g\":0.604529500007629,\"r\":0.604529500007629}},\"1a5308\":{\"lock\":false,\"pos\":{\"x\":-0.499999970197678,\"y\":1.5058890581131,\"z\":13.5},\"rot\":{\"x\":0.0108898393809795,\"y\":180.020492553711,\"z\":0.00495687127113342},\"tint\":{\"a\":1,\"b\":0.604529500007629,\"g\":0.604529500007629,\"r\":0.604529500007629}},\"1a636d\":{\"lock\":false,\"pos\":{\"x\":-21.5,\"y\":1.8353,\"z\":5},\"rot\":{\"x\":0,\"y\":179.9945,\"z\":0},\"tint\":{\"a\":1,\"b\":0,\"g\":0,\"r\":0.614982545375824}},\"256c54\":{\"lock\":false,\"pos\":{\"x\":1.99999952316284,\"y\":1.50415241718292,\"z\":5.49999904632568},\"rot\":{\"x\":0.0112006701529026,\"y\":134.999969482422,\"z\":-0.00420490466058254},\"tint\":{\"a\":1,\"b\":0.604529500007629,\"g\":0.604529500007629,\"r\":0.604529500007629}},\"38745e\":{\"lock\":false,\"pos\":{\"x\":-30.5,\"y\":1.7663,\"z\":2},\"rot\":{\"x\":0,\"y\":0,\"z\":0},\"tint\":{\"a\":0,\"b\":0,\"g\":0,\"r\":0}},\"48d3a6\":{\"lock\":false,\"pos\":{\"x\":-20.5026016235352,\"y\":1.76429843902588,\"z\":4.99989795684814},\"rot\":{\"x\":0.0818795934319496,\"y\":180.080093383789,\"z\":0.0721905007958412},\"tint\":{\"a\":1,\"b\":1,\"g\":1,\"r\":1}},\"4e0524\":{\"lock\":false,\"pos\":{\"x\":19.5753231048584,\"y\":1.51699674129486,\"z\":9.4874963760376},\"rot\":{\"x\":0.010895736515522,\"y\":180.00032043457,\"z\":0.00492065213620663},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"50e020\":{\"lock\":false,\"pos\":{\"x\":5,\"y\":1.51673758029938,\"z\":1.50000047683716},\"rot\":{\"x\":0.010891511105001,\"y\":179.999755859375,\"z\":0.00494816759601235},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"50fee5\":{\"lock\":false,\"pos\":{\"x\":0.0938970521092415,\"y\":1.57025301456451,\"z\":17.4997959136963},\"rot\":{\"x\":0.0109023349359632,\"y\":180.015563964844,\"z\":0.00493847206234932},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"5953bc\":{\"lock\":false,\"pos\":{\"x\":-4.50000095367432,\"y\":1.50623440742493,\"z\":13.5},\"rot\":{\"x\":-0.0042028808966279,\"y\":45.0001831054688,\"z\":359.988800048828},\"tint\":{\"a\":1,\"b\":0.604529500007629,\"g\":0.604529500007629,\"r\":0.604529500007629}},\"60bdf2\":{\"lock\":false,\"pos\":{\"x\":12.5010004043579,\"y\":1.53161466121674,\"z\":-6.01679992675781},\"rot\":{\"x\":0.00494811125099659,\"y\":90.0003967285156,\"z\":359.989105224609},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"6e7fb6\":{\"lock\":false,\"pos\":{\"x\":-0.500003516674042,\"y\":1.52025365829468,\"z\":17.5},\"rot\":{\"x\":0.0108943535014987,\"y\":180.015701293945,\"z\":0.00492381118237972},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"70f9fd\":{\"lock\":false,\"pos\":{\"x\":-4.49999952316284,\"y\":1.50547409057617,\"z\":9.5},\"rot\":{\"x\":0.0049484996125102,\"y\":90.0030288696289,\"z\":359.989105224609},\"tint\":{\"a\":1,\"b\":0.604529500007629,\"g\":0.604529500007629,\"r\":0.604529500007629}},\"7c7f31\":{\"lock\":false,\"pos\":{\"x\":17.5049,\"y\":1.5504,\"z\":-6.0252},\"rot\":{\"x\":0.0049,\"y\":89.9242,\"z\":359.9891},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"82feae\":{\"lock\":false,\"pos\":{\"x\":-0.500007688999176,\"y\":1.51873326301575,\"z\":9.5},\"rot\":{\"x\":0.0108918435871601,\"y\":179.99577331543,\"z\":0.00494740344583988},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"836fbc\":{\"lock\":false,\"pos\":{\"x\":11.5000038146973,\"y\":1.51921725273132,\"z\":17.5},\"rot\":{\"x\":0.0108973616734147,\"y\":179.981216430664,\"z\":0.00491703534498811},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"87db06\":{\"lock\":false,\"pos\":{\"x\":30.5009727478027,\"y\":1.65728330612183,\"z\":-7.75265741348267},\"rot\":{\"x\":0.00309495534747839,\"y\":180.008117675781,\"z\":180.001708984375},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"882caa\":{\"lock\":false,\"pos\":{\"x\":12.0939035415649,\"y\":1.56921660900116,\"z\":17.5002002716064},\"rot\":{\"x\":0.0109052853658795,\"y\":179.981307983398,\"z\":0.00493154209107161},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"8abbc3\":{\"lock\":false,\"pos\":{\"x\":-25.0000133514404,\"y\":1.80548751354218,\"z\":9.99996566772461},\"rot\":{\"x\":-4.91674654767849E-06,\"y\":180.001037597656,\"z\":-9.64006474646339E-08},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"8b699f\":{\"lock\":false,\"pos\":{\"x\":30.5,\"y\":1.67653608322144,\"z\":-3.00009989738464},\"rot\":{\"x\":-0.000590994721278548,\"y\":180.000869750977,\"z\":180.001068115234},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"902d2e\":{\"lock\":false,\"pos\":{\"x\":11.5,\"y\":1.51769697666168,\"z\":9.5},\"rot\":{\"x\":0.0108918994665146,\"y\":179.995178222656,\"z\":0.00494731916114688},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"95e2ed\":{\"lock\":false,\"pos\":{\"x\":11.5,\"y\":1.50485265254974,\"z\":13.5},\"rot\":{\"x\":359.989105224609,\"y\":0.000141347758471966,\"z\":-0.00495198788121343},\"tint\":{\"a\":1,\"b\":0.604529500007629,\"g\":0.604529500007629,\"r\":0.604529500007629}},\"97bbd1\":{\"lock\":false,\"pos\":{\"x\":17.5010013580322,\"y\":1.53118240833282,\"z\":-6.01959991455078},\"rot\":{\"x\":0.00494787702336907,\"y\":90.0002136230469,\"z\":359.989105224609},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"af1fb0\":{\"lock\":false,\"pos\":{\"x\":-8.5000114440918,\"y\":1.51942384243011,\"z\":9.5},\"rot\":{\"x\":0.0108931874856353,\"y\":180.028106689453,\"z\":0.00492580514401197},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"b2f07e\":{\"lock\":false,\"pos\":{\"x\":33.5,\"y\":1.54087495803833,\"z\":-10},\"rot\":{\"x\":-7.40418526490316E-09,\"y\":0.00015589757822454,\"z\":4.23307966457287E-08},\"tint\":{\"a\":0,\"b\":0,\"g\":0,\"r\":0}},\"b47dae\":{\"lock\":false,\"pos\":{\"x\":23.5013580322266,\"y\":1.51380479335785,\"z\":-5.52293300628662},\"rot\":{\"x\":0.0108916060999036,\"y\":180,\"z\":0.00494835851714015},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"c56db4\":{\"lock\":false,\"pos\":{\"x\":5,\"y\":1.50465369224548,\"z\":9.5},\"rot\":{\"x\":0.00494789006188512,\"y\":90.000244140625,\"z\":359.989105224609},\"tint\":{\"a\":1,\"b\":0.604529500007629,\"g\":0.604529500007629,\"r\":0.604529500007629}},\"cabb87\":{\"lock\":false,\"pos\":{\"x\":15.9999990463257,\"y\":1.50446403026581,\"z\":13.5},\"rot\":{\"x\":359.988800048828,\"y\":314.999908447266,\"z\":0.0042040734551847},\"tint\":{\"a\":1,\"b\":0.604529500007629,\"g\":0.604529500007629,\"r\":0.604529500007629}},\"cbecf6\":{\"lock\":false,\"pos\":{\"x\":-20.4999980926514,\"y\":1.80067348480225,\"z\":10},\"rot\":{\"x\":-5.03634191773017E-06,\"y\":180.000686645508,\"z\":2.60443897559526E-08},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"d21514\":{\"lock\":false,\"pos\":{\"x\":20.1697216033936,\"y\":1.5669960975647,\"z\":9.48429870605469},\"rot\":{\"x\":0.0109042124822736,\"y\":180.000778198242,\"z\":0.00493528740480542},\"tint\":{\"a\":1,\"b\":0.713235259056091,\"g\":0.713235259056091,\"r\":0.713235259056091}},\"fbfb10\":{\"lock\":false,\"pos\":{\"x\":8,\"y\":1.50363421440125,\"z\":5.49999904632568},\"rot\":{\"x\":0.0042030643671751,\"y\":224.999847412109,\"z\":0.0112042939290404},\"tint\":{\"a\":1,\"b\":0.604529500007629,\"g\":0.604529500007629,\"r\":0.604529500007629}},\"fdcdca\":{\"lock\":false,\"pos\":{\"x\":-21.5000038146973,\"y\":1.7663015127182,\"z\":1.99999618530273},\"rot\":{\"x\":5.33302136318525E-06,\"y\":-0.000259034568443894,\"z\":-2.21065874939086E-07},\"tint\":{\"a\":0,\"b\":0,\"g\":0,\"r\":0}},\"ff3b4a\":{\"lock\":true,\"pos\":{\"x\":32.9995,\"y\":1.54,\"z\":-8.8327},\"rot\":{\"x\":0,\"y\":179.9766,\"z\":180},\"tint\":{\"a\":1,\"b\":0.0899688974022865,\"g\":0.23096176981926,\"r\":0.442961752414703}}}}",
       "XmlUI": "",
       "ContainedObjects": [
-        {
-          "GUID": "ff3b4a",
-          "Name": "Custom_Assetbundle",
-          "Transform": {
-            "posX": 32.9995,
-            "posY": 1.54,
-            "posZ": -8.8327,
-            "rotX": 0.0,
-            "rotY": 179.9766,
-            "rotZ": 180.0,
-            "scaleX": 1.66856647,
-            "scaleY": 0.3,
-            "scaleZ": 0.6767996
-          },
-          "Nickname": "",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.4429617,
-            "g": 0.23096171,
-            "b": 0.08996885
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": true,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomAssetbundle": {
-            "AssetbundleURL": "chry.me/tts/3droom/floorpad.unity3d",
-            "AssetbundleSecondaryURL": "",
-            "MaterialIndex": 3,
-            "TypeIndex": 4,
-            "LoopingEffectIndex": 0
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "AttachedSnapPoints": [
-            {
-              "Position": {
-                "x": -1.49716341,
-                "y": -1.13111449E-08,
-                "z": -1.59733665
-              },
-              "Rotation": {
-                "x": -0.00309233251,
-                "y": 359.9685,
-                "z": 0.0016989311
-              }
-            },
-            {
-              "Position": {
-                "x": 1.19917738,
-                "y": -2.0438693E-09,
-                "z": -1.59855163
-              },
-              "Rotation": {
-                "x": -0.00026680986,
-                "y": 359.977783,
-                "z": 180.000946
-              }
-            }
-          ]
-        },
         {
           "GUID": "7c7f31",
           "Name": "Deck",
@@ -46429,15 +46351,15 @@
           ]
         },
         {
-          "GUID": "38745e",
+          "GUID": "0ac4aa",
           "Name": "Custom_Model",
           "Transform": {
-            "posX": -30.5000038,
-            "posY": 1.76630151,
-            "posZ": 1.99999523,
-            "rotX": 4.408125E-06,
-            "rotY": 6.31315E-05,
-            "rotZ": 3.27124383E-07,
+            "posX": -30.7742,
+            "posY": 1.76629961,
+            "posZ": 24.0037,
+            "rotX": 4.74357057E-06,
+            "rotY": 9.99646E-05,
+            "rotZ": -1.830724E-07,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -46459,7 +46381,7 @@
           "LayoutGroupSortIndex": 0,
           "Value": 0,
           "Locked": false,
-          "Grid": true,
+          "Grid": false,
           "Snap": false,
           "IgnoreFoW": false,
           "MeasureMovement": false,
@@ -46481,19 +46403,423 @@
             "CastShadows": true
           },
           "LuaScript": "-- Code for bag to identify text tool objects\r\nmovableTextTool_cowgoesmoo33 = true\r\n\r\n-- Number of characters before the text box width expands.\r\nEXPAND_INTERVAL = 20\r\n\r\n-- This table controls what is passed between save/load\r\ndata = {}\r\n\r\nfunction onLoad(saved_data)\r\n  if saved_data ~= '' then\r\n    data = JSON.decode(saved_data)\r\n    if data.text ~= '' then\r\n      self.interactable = data.interactable\r\n      staticMode()\r\n      return\r\n    end\r\n  else\r\n    data = {size=200, color=Color(0,0,0), text='', interactable=true,\r\n        enter_to_finish=false, autolock=false, autolift=false,\r\n        hover_height=0.05, box_transparency=1}\r\n  end\r\n\r\n  inputMode()\r\nend\r\n\r\n-- True if in the middle of delay after pressing Enter (with enter_to_finish on)\r\nfinishing = false\r\nfunction input_func(obj, color, input, stillEditing)\r\n  local params = getBox(input)\r\n  if params then\r\n    params.value = input\r\n    self.editInput(params)\r\n  end\r\n\r\n  if not stillEditing then\r\n    data.text = input\r\n    updateState()\r\n    if input ~= '' then staticMode(color) end\r\n  elseif data.enter_to_finish then\r\n    -- If enter is pressed: remove last newline and force finish\r\n    if not finishing and input:sub(-1) == '\\n' then\r\n      finishing = true\r\n      -- Delay to avoid user's Enter keypress being detected (opens chat box)\r\n      Wait.frames(function()\r\n        input = input:sub(1, -2)\r\n        data.text = input\r\n        updateState()\r\n        if input ~= '' then staticMode(color) else inputMode() end\r\n        finishing = false\r\n      end, 10)\r\n    end\r\n  end\r\nend\r\n\r\n-- When the inpupt box appears and lets the player type in it.\r\nfunction inputMode()\r\n  self.clearContextMenu()\r\n  self.clearInputs()\r\n  self.clearButtons()\r\n\r\n  local size = getBox(data.text, true)\r\n\r\n  self.createInput({\r\n    input_function = \"input_func\",\r\n    function_owner = self,\r\n    label          = \"Type Here\",\r\n    alignment      = 3,\r\n    position       = {x=0, y=data.hover_height, z=0},\r\n    rotation       = {0, 180, 0},\r\n    width          = size.width,\r\n    height         = size.height,\r\n    color          = getBackground(data.color),\r\n    font_color     = data.color,\r\n    font_size      = data.size,\r\n    value          = data.text,\r\n  })\r\n\r\n  self.addContextMenuItem('Color: Object Tint', function(color)\r\n    applyMultiple(color, 'setColor')\r\n  end)\r\n  self.addContextMenuItem('Color: Player', function(color)\r\n    applyMultiple(color, 'setColor', {Color.fromString(color)})\r\n  end)\r\n  self.addContextMenuItem('Color: Black', function(color)\r\n    applyMultiple(color, 'setColor', {Color(0,0,0)})\r\n  end)\r\n  self.addContextMenuItem('Color: White', function(color)\r\n    applyMultiple(color, 'setColor', {Color(1,1,1)})\r\n  end)\r\n  self.addContextMenuItem('Size: Increase', function(color)\r\n    applyMultiple(color, 'changeSize', {50})\r\n  end, true)\r\n  self.addContextMenuItem('Size: Decrease', function(color)\r\n    applyMultiple(color, 'changeSize', {-50})\r\n  end, true)\r\nend\r\n\r\n-- When the input box disappears and displays the text.\r\nfunction staticMode(player)\r\n  self.clearContextMenu()\r\n  if data.autolock then\r\n    self.locked = true\r\n  end\r\n  if self.getInputs() and #self.getInputs() ~= 0 then\r\n    self.removeInput(0)\r\n  end\r\n\r\n  -- Clear from selecting player\r\n  if player then\r\n    self.removeFromPlayerSelection(player)\r\n  end\r\n\r\n  local displayText = data.text\r\n  if data.enter_to_finish then\r\n    displayText = displayText:gsub('%[n%]', '\\n')\r\n  end\r\n\r\n  self.createButton({\r\n    label=displayText,\r\n    click_function=\"none\",\r\n    function_owner=self,\r\n    position={0,data.hover_height,0}, rotation={0,180,0}, height=0, width=0,\r\n    font_color=data.color, font_size=data.size\r\n  })\r\n\r\n  self.addContextMenuItem('Edit Text', function(color)\r\n    self.removeFromPlayerSelection(color)\r\n    inputMode()\r\n  end)\r\n  self.addContextMenuItem('Clear', function(color)\r\n    applyMultiple(color, 'clear', _, true)\r\n  end)\r\n  self.addContextMenuItem('Color: Object Tint', function(color)\r\n    applyMultiple(color, 'setColor')\r\n  end)\r\n  self.addContextMenuItem('Color: Player', function(color)\r\n    applyMultiple(color, 'setColor', {Color.fromString(color)})\r\n  end)\r\n  self.addContextMenuItem('Color: Black', function(color)\r\n    applyMultiple(color, 'setColor', {Color(0,0,0)})\r\n  end)\r\n  self.addContextMenuItem('Color: White', function(color)\r\n    applyMultiple(color, 'setColor', {Color(1,1,1)})\r\n  end)\r\n  self.addContextMenuItem('Size: Increase', function(color)\r\n    applyMultiple(color, 'changeSize', {50})\r\n  end, true)\r\n  self.addContextMenuItem('Size: Decrease', function(color)\r\n    applyMultiple(color, 'changeSize', {-50})\r\n  end, true)\r\n  self.addContextMenuItem('Permanently Attach', attemptAttach)\r\n  self.addContextMenuItem('Permalock', function(color)\r\n    applyMultiple(color, 'permalock', _, true)\r\n  end)\r\nend\r\n\r\nfunction changeSize(params)\r\n  local delta = params[1]\r\n  local newSize = data.size + delta\r\n  if newSize > 800  or newSize < 50 then\r\n    return\r\n  end\r\n  data.size = newSize\r\n  updateState()\r\n  if self.getButtons() and #self.getButtons() ~= 0 then\r\n    self.editButton({font_size=data.size})\r\n  else\r\n    local size = getBox(data.text, true)\r\n    self.editInput({width=size.width, height=size.height, font_size=data.size})\r\n  end\r\nend\r\n\r\nfunction setColor(params)\r\n  if params and params[1] then\r\n    data.color = params[1]\r\n  else\r\n    data.color = self.getColorTint():setAt('a', 1) -- Take on color of object tint\r\n  end\r\n  updateState()\r\n  if self.getButtons() and #self.getButtons() ~= 0 then\r\n    self.editButton({font_color=data.color})\r\n  else\r\n    self.editInput({font_color=data.color, color=getBackground(data.color)})\r\n  end\r\nend\r\n\r\nfunction getBackground(color) --determines whether to use black or white depending on luminance\r\n  local r,g,b = Color(color):get()\r\n\r\n  local lum = 0.2126*r + 0.7152*g + 0.0722*b\r\n  if lum > 0.75 then\r\n    return {0.2,0.2,0.2, data.box_transparency}\r\n  else\r\n    return {1,1,1, data.box_transparency}\r\n  end\r\nend\r\n\r\nfunction clear()\r\n  data.text = ''\r\n  updateState()\r\n  inputMode()\r\nend\r\n\r\nfunction permalock()\r\n  self.interactable = false\r\n  data.interactable = false\r\n  updateState()\r\nend\r\n\r\nlocal target_script = [[\r\nfunction onLoad(script_state)\r\n  if script_state and script_state ~= '' then\r\n    local state = JSON.decode(script_state)\r\n    for _,entry in ipairs(state) do\r\n      self.createButton(entry)\r\n    end\r\n    self.addContextMenuItem('Clear All Text', function(color)\r\n      self.clearContextMenu()\r\n      self.clearButtons()\r\n      self.script_state = ''\r\n      self.script_code = ''\r\n    end)\r\n  end\r\nend\r\n]]\r\n\r\nfunction attemptAttach(player_color)\r\n  local objs = Player[player_color].getSelectedObjects()\r\n  local attachee\r\n  local attachers = {}\r\n  for _,obj in ipairs(objs) do\r\n    if obj.getVar('movableTextTool_cowgoesmoo33') then\r\n      if obj ~= self then\r\n        table.insert(attachers, obj)\r\n      end\r\n    else\r\n      if attachee then\r\n        broadcastToColor(\"More than one target selected.\", player_color)\r\n        return\r\n      else\r\n        attachee = obj\r\n      end\r\n    end\r\n  end\r\n  if attachee then\r\n    local code = attachee.script_code\r\n    if code and code ~= '' and code ~= target_script then\r\n      broadcastToColor(\"Warning: script on card has been overriden. Rewind time to undo.\", player_color)\r\n    end\r\n    for i,attacher in ipairs(attachers) do\r\n      attacher.call('attach', {target = attachee})\r\n    end\r\n    attach({target = attachee})\r\n    local type, flip = attachee.type, attachee.getRotation().z\r\n    if (type == 'Card' or type == 'Deck') and flip > 175 and flip < 185 then\r\n      broadcastToColor(\"Warning: text will not display if card or deck is facing down.\", player_color)\r\n    end\r\n  else\r\n    broadcastToColor(\"You must have a target object in your selection (using click-and-drag or Ctrl+Click) to use this option.\", player_color)\r\n  end\r\nend\r\n\r\nfunction attach(params)\r\n  local target = params.target\r\n  local displayText = data.text\r\n  if data.enter_to_finish then\r\n    displayText = displayText:gsub('%[n%]', '\\n')\r\n  end\r\n\r\n  local textRotation = self.getRotation():sub(target.getRotation())\r\n    :add(Vector(180, 0, 180))\r\n\r\n  local textPosition = target.positionToLocal(\r\n    self.getPosition():add(Vector(0, data.hover_height, 0))\r\n  )\r\n  textPosition.x = -textPosition.x\r\n\r\n  local textScale = {}\r\n  textScale.x = self.getScale().x / target.getScale().x\r\n  textScale.y = self.getScale().x / target.getScale().y\r\n  textScale.z = self.getScale().x / target.getScale().z\r\n\r\n  local details = {\r\n    label=displayText,\r\n    click_function=\"none\",\r\n    function_owner=nil,\r\n    position=textPosition,\r\n    rotation=textRotation,\r\n    scale=textScale,\r\n    height=0, width=0,\r\n    font_color=data.color, font_size=data.size\r\n  }\r\n\r\n  target.createButton(details)\r\n\r\n  local script_state = target.script_state\r\n  if script_state and script_state ~= '' then\r\n    local state = JSON.decode(script_state)\r\n    table.insert(state, details)\r\n    target.script_state = JSON.encode(state)\r\n  else\r\n    target.script_state = JSON.encode({[1]=details})\r\n  end\r\n\r\n  target.script_code = target_script\r\n\r\n  self.destruct()\r\nend\r\n\r\nfunction applyMultiple(player_color, func_string, params, static_only)\r\n  local objs = Player[player_color].getSelectedObjects()\r\n  for _,obj in ipairs(objs) do\r\n    if obj.getVar('movableTextTool_cowgoesmoo33') then\r\n      if not static_only or obj.call('isStatic') then\r\n        obj.call(func_string, params)\r\n      end\r\n    end\r\n  end\r\nend\r\n\r\nfunction isStatic()\r\n  local input = self.getInputs()\r\n  return not input or #input == 0\r\nend\r\n\r\nfunction getBox(input, force)\r\n  local maxLength, lineCount = EXPAND_INTERVAL, 1\r\n  local lineLength = 0\r\n  for i = 1, #input do\r\n    local c = input:sub(i,i)\r\n    if c == '\\n' then\r\n      lineCount = lineCount + 1\r\n      if lineLength > maxLength then maxLength = (math.floor(lineLength / EXPAND_INTERVAL) + 1) * EXPAND_INTERVAL end\r\n      lineLength = 0\r\n    else\r\n      lineLength = lineLength + 1\r\n    end\r\n  end\r\n  if lineLength > maxLength then maxLength = (math.floor(lineLength / EXPAND_INTERVAL) + 1) * EXPAND_INTERVAL end\r\n\r\n  newWidth = data.size * maxLength * 0.9\r\n  newHeight = data.size * lineCount + 23\r\n\r\n  if force or boxWidth ~= newWidth or boxHeight ~= newHeight then\r\n    boxWidth, boxHeight = newWidth, newHeight\r\n    return {width = boxWidth, height = boxHeight}\r\n  end\r\n  return nil\r\nend\r\n\r\ntemp_lift = nil\r\nfunction onPickUp(player_color)\r\n  if data.autolift then\r\n    local player = Player[player_color]\r\n    temp_lift = player.lift_height\r\n    player.lift_height = 0\r\n  end\r\nend\r\n\r\nfunction onDrop(player_color)\r\n  if data.autolift and temp_lift then\r\n    Player[player_color].lift_height = temp_lift\r\n  end\r\nend\r\n\r\n-- Should be called every time data is modified, allows info to be saved on copy/paste\r\nfunction updateState()\r\n  self.script_state = JSON.encode(data)\r\nend\r\n\r\nfunction onSave()\r\n  self.script_state = JSON.encode(data)\r\n  return self.script_state\r\nend",
-          "LuaScriptState": "{\"autolift\":false,\"autolock\":false,\"box_transparency\":1,\"color\":{\"a\":1,\"b\":1,\"g\":1,\"r\":1},\"enter_to_finish\":false,\"hover_height\":0.05,\"interactable\":true,\"size\":300,\"text\":\"Hérétiques mis de côté\"}",
+          "LuaScriptState": "{\"autolift\":false,\"autolock\":false,\"box_transparency\":1,\"color\":{\"a\":1,\"b\":1,\"g\":1,\"r\":1},\"enter_to_finish\":false,\"hover_height\":0.05,\"interactable\":true,\"size\":300,\"text\":\"Retirés de la partie\"}",
           "XmlUI": ""
+        },
+        {
+          "GUID": "0e8c1e",
+          "Name": "Card",
+          "Transform": {
+            "posX": -7.90601158,
+            "posY": 1.5694232,
+            "posZ": 9.499696,
+            "rotX": 0.0109010367,
+            "rotY": 180.000687,
+            "rotZ": 0.004939883,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Tombes des Hérétiques",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 1120507,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "11205": {
+              "FaceURL": "https://i.imgur.com/CWF1aKc.jpg",
+              "BackURL": "https://i.imgur.com/QUAMFwq.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "19c352",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 15.499999,
+            "posY": 1.50374687,
+            "posZ": 9.5,
+            "rotX": -0.0049477974,
+            "rotY": 269.999939,
+            "rotZ": 0.0108984755,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.6045295,
+            "g": 0.6045295,
+            "b": 0.6045295
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/vppt2my.png",
+            "ImageSecondaryURL": "https://i.imgur.com/vppt2my.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 3,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "States": {
+            "2": {
+              "GUID": "44b0c5",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -39.7933121,
+                "posY": 1.63758957,
+                "posZ": 2.038383,
+                "rotX": 359.9201,
+                "rotY": 269.9961,
+                "rotZ": 0.0168742146,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.6045295,
+                "g": 0.6045295,
+                "b": 0.6045295
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/HyfE8m8.png",
+                "ImageSecondaryURL": "https://i.imgur.com/HyfE8m8.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 3,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            "3": {
+              "GUID": "5b38c6",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -38.8217163,
+                "posY": 1.99356019,
+                "posZ": 0.4159239,
+                "rotX": 359.9201,
+                "rotY": 272.9828,
+                "rotZ": 0.01687373,
+                "scaleX": 0.8,
+                "scaleY": 1.0,
+                "scaleZ": 0.8
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.6045295,
+                "g": 0.6045295,
+                "b": 0.6045295
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/dHKBLoD.png",
+                "ImageSecondaryURL": "https://i.imgur.com/HyfE8m8.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 3,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          }
+        },
+        {
+          "GUID": "1a5308",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -0.4999999,
+            "posY": 1.505889,
+            "posZ": 13.5,
+            "rotX": 0.010889641,
+            "rotY": 180.0205,
+            "rotZ": 0.004956027,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.6045295,
+            "g": 0.6045295,
+            "b": 0.6045295
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/vppt2my.png",
+            "ImageSecondaryURL": "https://i.imgur.com/vppt2my.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 3,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "States": {
+            "2": {
+              "GUID": "44b0c5",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -39.7933121,
+                "posY": 1.63758957,
+                "posZ": 2.038383,
+                "rotX": 359.9201,
+                "rotY": 269.9961,
+                "rotZ": 0.0168742146,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.6045295,
+                "g": 0.6045295,
+                "b": 0.6045295
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/HyfE8m8.png",
+                "ImageSecondaryURL": "https://i.imgur.com/HyfE8m8.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 3,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            "3": {
+              "GUID": "5b38c6",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -38.8217163,
+                "posY": 1.99356019,
+                "posZ": 0.4159239,
+                "rotX": 359.9201,
+                "rotY": 272.9828,
+                "rotZ": 0.01687373,
+                "scaleX": 0.8,
+                "scaleY": 1.0,
+                "scaleZ": 0.8
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.6045295,
+                "g": 0.6045295,
+                "b": 0.6045295
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/dHKBLoD.png",
+                "ImageSecondaryURL": "https://i.imgur.com/HyfE8m8.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 3,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          }
         },
         {
           "GUID": "1a636d",
           "Name": "Custom_Model_Bag",
           "Transform": {
             "posX": -21.5000019,
-            "posY": 1.83530116,
-            "posZ": 4.999997,
-            "rotX": -6.247981E-06,
+            "posY": 1.83530128,
+            "posZ": 4.99999857,
+            "rotX": -5.13318673E-06,
             "rotY": 179.994553,
-            "rotZ": 3.876418E-07,
+            "rotZ": -1.39378287E-07,
             "scaleX": 0.7,
             "scaleY": 0.7,
             "scaleZ": 0.7
@@ -46905,466 +47231,6 @@
           ]
         },
         {
-          "GUID": "0ac4aa",
-          "Name": "Custom_Model",
-          "Transform": {
-            "posX": -30.7742,
-            "posY": 1.76629961,
-            "posZ": 24.0037,
-            "rotX": 4.787238E-06,
-            "rotY": 9.99646945E-05,
-            "rotZ": -6.105119E-08,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Hérétique",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 0.0,
-            "a": 0.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": false,
-          "Snap": false,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": false,
-          "Tooltip": false,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomMesh": {
-            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1478820768302617365/27883B7913E0E69143C3AA03493B7E7C4E8C29C0/",
-            "DiffuseURL": "",
-            "NormalURL": "",
-            "ColliderURL": "",
-            "Convex": true,
-            "MaterialIndex": 1,
-            "TypeIndex": 0,
-            "CastShadows": true
-          },
-          "LuaScript": "-- Code for bag to identify text tool objects\r\nmovableTextTool_cowgoesmoo33 = true\r\n\r\n-- Number of characters before the text box width expands.\r\nEXPAND_INTERVAL = 20\r\n\r\n-- This table controls what is passed between save/load\r\ndata = {}\r\n\r\nfunction onLoad(saved_data)\r\n  if saved_data ~= '' then\r\n    data = JSON.decode(saved_data)\r\n    if data.text ~= '' then\r\n      self.interactable = data.interactable\r\n      staticMode()\r\n      return\r\n    end\r\n  else\r\n    data = {size=200, color=Color(0,0,0), text='', interactable=true,\r\n        enter_to_finish=false, autolock=false, autolift=false,\r\n        hover_height=0.05, box_transparency=1}\r\n  end\r\n\r\n  inputMode()\r\nend\r\n\r\n-- True if in the middle of delay after pressing Enter (with enter_to_finish on)\r\nfinishing = false\r\nfunction input_func(obj, color, input, stillEditing)\r\n  local params = getBox(input)\r\n  if params then\r\n    params.value = input\r\n    self.editInput(params)\r\n  end\r\n\r\n  if not stillEditing then\r\n    data.text = input\r\n    updateState()\r\n    if input ~= '' then staticMode(color) end\r\n  elseif data.enter_to_finish then\r\n    -- If enter is pressed: remove last newline and force finish\r\n    if not finishing and input:sub(-1) == '\\n' then\r\n      finishing = true\r\n      -- Delay to avoid user's Enter keypress being detected (opens chat box)\r\n      Wait.frames(function()\r\n        input = input:sub(1, -2)\r\n        data.text = input\r\n        updateState()\r\n        if input ~= '' then staticMode(color) else inputMode() end\r\n        finishing = false\r\n      end, 10)\r\n    end\r\n  end\r\nend\r\n\r\n-- When the inpupt box appears and lets the player type in it.\r\nfunction inputMode()\r\n  self.clearContextMenu()\r\n  self.clearInputs()\r\n  self.clearButtons()\r\n\r\n  local size = getBox(data.text, true)\r\n\r\n  self.createInput({\r\n    input_function = \"input_func\",\r\n    function_owner = self,\r\n    label          = \"Type Here\",\r\n    alignment      = 3,\r\n    position       = {x=0, y=data.hover_height, z=0},\r\n    rotation       = {0, 180, 0},\r\n    width          = size.width,\r\n    height         = size.height,\r\n    color          = getBackground(data.color),\r\n    font_color     = data.color,\r\n    font_size      = data.size,\r\n    value          = data.text,\r\n  })\r\n\r\n  self.addContextMenuItem('Color: Object Tint', function(color)\r\n    applyMultiple(color, 'setColor')\r\n  end)\r\n  self.addContextMenuItem('Color: Player', function(color)\r\n    applyMultiple(color, 'setColor', {Color.fromString(color)})\r\n  end)\r\n  self.addContextMenuItem('Color: Black', function(color)\r\n    applyMultiple(color, 'setColor', {Color(0,0,0)})\r\n  end)\r\n  self.addContextMenuItem('Color: White', function(color)\r\n    applyMultiple(color, 'setColor', {Color(1,1,1)})\r\n  end)\r\n  self.addContextMenuItem('Size: Increase', function(color)\r\n    applyMultiple(color, 'changeSize', {50})\r\n  end, true)\r\n  self.addContextMenuItem('Size: Decrease', function(color)\r\n    applyMultiple(color, 'changeSize', {-50})\r\n  end, true)\r\nend\r\n\r\n-- When the input box disappears and displays the text.\r\nfunction staticMode(player)\r\n  self.clearContextMenu()\r\n  if data.autolock then\r\n    self.locked = true\r\n  end\r\n  if self.getInputs() and #self.getInputs() ~= 0 then\r\n    self.removeInput(0)\r\n  end\r\n\r\n  -- Clear from selecting player\r\n  if player then\r\n    self.removeFromPlayerSelection(player)\r\n  end\r\n\r\n  local displayText = data.text\r\n  if data.enter_to_finish then\r\n    displayText = displayText:gsub('%[n%]', '\\n')\r\n  end\r\n\r\n  self.createButton({\r\n    label=displayText,\r\n    click_function=\"none\",\r\n    function_owner=self,\r\n    position={0,data.hover_height,0}, rotation={0,180,0}, height=0, width=0,\r\n    font_color=data.color, font_size=data.size\r\n  })\r\n\r\n  self.addContextMenuItem('Edit Text', function(color)\r\n    self.removeFromPlayerSelection(color)\r\n    inputMode()\r\n  end)\r\n  self.addContextMenuItem('Clear', function(color)\r\n    applyMultiple(color, 'clear', _, true)\r\n  end)\r\n  self.addContextMenuItem('Color: Object Tint', function(color)\r\n    applyMultiple(color, 'setColor')\r\n  end)\r\n  self.addContextMenuItem('Color: Player', function(color)\r\n    applyMultiple(color, 'setColor', {Color.fromString(color)})\r\n  end)\r\n  self.addContextMenuItem('Color: Black', function(color)\r\n    applyMultiple(color, 'setColor', {Color(0,0,0)})\r\n  end)\r\n  self.addContextMenuItem('Color: White', function(color)\r\n    applyMultiple(color, 'setColor', {Color(1,1,1)})\r\n  end)\r\n  self.addContextMenuItem('Size: Increase', function(color)\r\n    applyMultiple(color, 'changeSize', {50})\r\n  end, true)\r\n  self.addContextMenuItem('Size: Decrease', function(color)\r\n    applyMultiple(color, 'changeSize', {-50})\r\n  end, true)\r\n  self.addContextMenuItem('Permanently Attach', attemptAttach)\r\n  self.addContextMenuItem('Permalock', function(color)\r\n    applyMultiple(color, 'permalock', _, true)\r\n  end)\r\nend\r\n\r\nfunction changeSize(params)\r\n  local delta = params[1]\r\n  local newSize = data.size + delta\r\n  if newSize > 800  or newSize < 50 then\r\n    return\r\n  end\r\n  data.size = newSize\r\n  updateState()\r\n  if self.getButtons() and #self.getButtons() ~= 0 then\r\n    self.editButton({font_size=data.size})\r\n  else\r\n    local size = getBox(data.text, true)\r\n    self.editInput({width=size.width, height=size.height, font_size=data.size})\r\n  end\r\nend\r\n\r\nfunction setColor(params)\r\n  if params and params[1] then\r\n    data.color = params[1]\r\n  else\r\n    data.color = self.getColorTint():setAt('a', 1) -- Take on color of object tint\r\n  end\r\n  updateState()\r\n  if self.getButtons() and #self.getButtons() ~= 0 then\r\n    self.editButton({font_color=data.color})\r\n  else\r\n    self.editInput({font_color=data.color, color=getBackground(data.color)})\r\n  end\r\nend\r\n\r\nfunction getBackground(color) --determines whether to use black or white depending on luminance\r\n  local r,g,b = Color(color):get()\r\n\r\n  local lum = 0.2126*r + 0.7152*g + 0.0722*b\r\n  if lum > 0.75 then\r\n    return {0.2,0.2,0.2, data.box_transparency}\r\n  else\r\n    return {1,1,1, data.box_transparency}\r\n  end\r\nend\r\n\r\nfunction clear()\r\n  data.text = ''\r\n  updateState()\r\n  inputMode()\r\nend\r\n\r\nfunction permalock()\r\n  self.interactable = false\r\n  data.interactable = false\r\n  updateState()\r\nend\r\n\r\nlocal target_script = [[\r\nfunction onLoad(script_state)\r\n  if script_state and script_state ~= '' then\r\n    local state = JSON.decode(script_state)\r\n    for _,entry in ipairs(state) do\r\n      self.createButton(entry)\r\n    end\r\n    self.addContextMenuItem('Clear All Text', function(color)\r\n      self.clearContextMenu()\r\n      self.clearButtons()\r\n      self.script_state = ''\r\n      self.script_code = ''\r\n    end)\r\n  end\r\nend\r\n]]\r\n\r\nfunction attemptAttach(player_color)\r\n  local objs = Player[player_color].getSelectedObjects()\r\n  local attachee\r\n  local attachers = {}\r\n  for _,obj in ipairs(objs) do\r\n    if obj.getVar('movableTextTool_cowgoesmoo33') then\r\n      if obj ~= self then\r\n        table.insert(attachers, obj)\r\n      end\r\n    else\r\n      if attachee then\r\n        broadcastToColor(\"More than one target selected.\", player_color)\r\n        return\r\n      else\r\n        attachee = obj\r\n      end\r\n    end\r\n  end\r\n  if attachee then\r\n    local code = attachee.script_code\r\n    if code and code ~= '' and code ~= target_script then\r\n      broadcastToColor(\"Warning: script on card has been overriden. Rewind time to undo.\", player_color)\r\n    end\r\n    for i,attacher in ipairs(attachers) do\r\n      attacher.call('attach', {target = attachee})\r\n    end\r\n    attach({target = attachee})\r\n    local type, flip = attachee.type, attachee.getRotation().z\r\n    if (type == 'Card' or type == 'Deck') and flip > 175 and flip < 185 then\r\n      broadcastToColor(\"Warning: text will not display if card or deck is facing down.\", player_color)\r\n    end\r\n  else\r\n    broadcastToColor(\"You must have a target object in your selection (using click-and-drag or Ctrl+Click) to use this option.\", player_color)\r\n  end\r\nend\r\n\r\nfunction attach(params)\r\n  local target = params.target\r\n  local displayText = data.text\r\n  if data.enter_to_finish then\r\n    displayText = displayText:gsub('%[n%]', '\\n')\r\n  end\r\n\r\n  local textRotation = self.getRotation():sub(target.getRotation())\r\n    :add(Vector(180, 0, 180))\r\n\r\n  local textPosition = target.positionToLocal(\r\n    self.getPosition():add(Vector(0, data.hover_height, 0))\r\n  )\r\n  textPosition.x = -textPosition.x\r\n\r\n  local textScale = {}\r\n  textScale.x = self.getScale().x / target.getScale().x\r\n  textScale.y = self.getScale().x / target.getScale().y\r\n  textScale.z = self.getScale().x / target.getScale().z\r\n\r\n  local details = {\r\n    label=displayText,\r\n    click_function=\"none\",\r\n    function_owner=nil,\r\n    position=textPosition,\r\n    rotation=textRotation,\r\n    scale=textScale,\r\n    height=0, width=0,\r\n    font_color=data.color, font_size=data.size\r\n  }\r\n\r\n  target.createButton(details)\r\n\r\n  local script_state = target.script_state\r\n  if script_state and script_state ~= '' then\r\n    local state = JSON.decode(script_state)\r\n    table.insert(state, details)\r\n    target.script_state = JSON.encode(state)\r\n  else\r\n    target.script_state = JSON.encode({[1]=details})\r\n  end\r\n\r\n  target.script_code = target_script\r\n\r\n  self.destruct()\r\nend\r\n\r\nfunction applyMultiple(player_color, func_string, params, static_only)\r\n  local objs = Player[player_color].getSelectedObjects()\r\n  for _,obj in ipairs(objs) do\r\n    if obj.getVar('movableTextTool_cowgoesmoo33') then\r\n      if not static_only or obj.call('isStatic') then\r\n        obj.call(func_string, params)\r\n      end\r\n    end\r\n  end\r\nend\r\n\r\nfunction isStatic()\r\n  local input = self.getInputs()\r\n  return not input or #input == 0\r\nend\r\n\r\nfunction getBox(input, force)\r\n  local maxLength, lineCount = EXPAND_INTERVAL, 1\r\n  local lineLength = 0\r\n  for i = 1, #input do\r\n    local c = input:sub(i,i)\r\n    if c == '\\n' then\r\n      lineCount = lineCount + 1\r\n      if lineLength > maxLength then maxLength = (math.floor(lineLength / EXPAND_INTERVAL) + 1) * EXPAND_INTERVAL end\r\n      lineLength = 0\r\n    else\r\n      lineLength = lineLength + 1\r\n    end\r\n  end\r\n  if lineLength > maxLength then maxLength = (math.floor(lineLength / EXPAND_INTERVAL) + 1) * EXPAND_INTERVAL end\r\n\r\n  newWidth = data.size * maxLength * 0.9\r\n  newHeight = data.size * lineCount + 23\r\n\r\n  if force or boxWidth ~= newWidth or boxHeight ~= newHeight then\r\n    boxWidth, boxHeight = newWidth, newHeight\r\n    return {width = boxWidth, height = boxHeight}\r\n  end\r\n  return nil\r\nend\r\n\r\ntemp_lift = nil\r\nfunction onPickUp(player_color)\r\n  if data.autolift then\r\n    local player = Player[player_color]\r\n    temp_lift = player.lift_height\r\n    player.lift_height = 0\r\n  end\r\nend\r\n\r\nfunction onDrop(player_color)\r\n  if data.autolift and temp_lift then\r\n    Player[player_color].lift_height = temp_lift\r\n  end\r\nend\r\n\r\n-- Should be called every time data is modified, allows info to be saved on copy/paste\r\nfunction updateState()\r\n  self.script_state = JSON.encode(data)\r\nend\r\n\r\nfunction onSave()\r\n  self.script_state = JSON.encode(data)\r\n  return self.script_state\r\nend",
-          "LuaScriptState": "{\"autolift\":false,\"autolock\":false,\"box_transparency\":1,\"color\":{\"a\":1,\"b\":1,\"g\":1,\"r\":1},\"enter_to_finish\":false,\"hover_height\":0.05,\"interactable\":true,\"size\":300,\"text\":\"Retirés de la partie\"}",
-          "XmlUI": ""
-        },
-        {
-          "GUID": "0e8c1e",
-          "Name": "Card",
-          "Transform": {
-            "posX": -7.90601063,
-            "posY": 1.5694232,
-            "posZ": 9.499696,
-            "rotX": 0.0109009538,
-            "rotY": 180.000687,
-            "rotZ": 0.00494105835,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Tombes des Hérétiques",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CardID": 1120507,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "11205": {
-              "FaceURL": "https://i.imgur.com/CWF1aKc.jpg",
-              "BackURL": "https://i.imgur.com/QUAMFwq.jpg",
-              "NumWidth": 10,
-              "NumHeight": 7,
-              "BackIsHidden": false,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        },
-        {
-          "GUID": "19c352",
-          "Name": "Custom_Tile",
-          "Transform": {
-            "posX": 15.499999,
-            "posY": 1.50374687,
-            "posZ": 9.5,
-            "rotX": -0.0049477974,
-            "rotY": 269.999939,
-            "rotZ": 0.0108984755,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.6045295,
-            "g": 0.6045295,
-            "b": 0.6045295
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomImage": {
-            "ImageURL": "https://i.imgur.com/vppt2my.png",
-            "ImageSecondaryURL": "https://i.imgur.com/vppt2my.png",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0,
-            "CustomTile": {
-              "Type": 3,
-              "Thickness": 0.1,
-              "Stackable": false,
-              "Stretch": true
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "States": {
-            "2": {
-              "GUID": "44b0c5",
-              "Name": "Custom_Tile",
-              "Transform": {
-                "posX": -39.7933121,
-                "posY": 1.63758957,
-                "posZ": 2.038383,
-                "rotX": 359.9201,
-                "rotY": 269.9961,
-                "rotZ": 0.0168742146,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "",
-              "Description": "",
-              "GMNotes": "",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "ColorDiffuse": {
-                "r": 0.6045295,
-                "g": 0.6045295,
-                "b": 0.6045295
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "HideWhenFaceDown": false,
-              "Hands": false,
-              "CustomImage": {
-                "ImageURL": "https://i.imgur.com/HyfE8m8.png",
-                "ImageSecondaryURL": "https://i.imgur.com/HyfE8m8.png",
-                "ImageScalar": 1.0,
-                "WidthScale": 0.0,
-                "CustomTile": {
-                  "Type": 3,
-                  "Thickness": 0.1,
-                  "Stackable": false,
-                  "Stretch": true
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            "3": {
-              "GUID": "5b38c6",
-              "Name": "Custom_Tile",
-              "Transform": {
-                "posX": -38.8217163,
-                "posY": 1.99356019,
-                "posZ": 0.4159239,
-                "rotX": 359.9201,
-                "rotY": 272.9828,
-                "rotZ": 0.01687373,
-                "scaleX": 0.8,
-                "scaleY": 1.0,
-                "scaleZ": 0.8
-              },
-              "Nickname": "",
-              "Description": "",
-              "GMNotes": "",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "ColorDiffuse": {
-                "r": 0.6045295,
-                "g": 0.6045295,
-                "b": 0.6045295
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "HideWhenFaceDown": false,
-              "Hands": false,
-              "CustomImage": {
-                "ImageURL": "https://i.imgur.com/dHKBLoD.png",
-                "ImageSecondaryURL": "https://i.imgur.com/HyfE8m8.png",
-                "ImageScalar": 1.0,
-                "WidthScale": 0.0,
-                "CustomTile": {
-                  "Type": 3,
-                  "Thickness": 0.1,
-                  "Stackable": false,
-                  "Stretch": true
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            }
-          }
-        },
-        {
-          "GUID": "1a5308",
-          "Name": "Custom_Tile",
-          "Transform": {
-            "posX": -0.49999997,
-            "posY": 1.505889,
-            "posZ": 13.5,
-            "rotX": 0.010889817,
-            "rotY": 180.0205,
-            "rotZ": 0.00495688338,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.6045295,
-            "g": 0.6045295,
-            "b": 0.6045295
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomImage": {
-            "ImageURL": "https://i.imgur.com/vppt2my.png",
-            "ImageSecondaryURL": "https://i.imgur.com/vppt2my.png",
-            "ImageScalar": 1.0,
-            "WidthScale": 0.0,
-            "CustomTile": {
-              "Type": 3,
-              "Thickness": 0.1,
-              "Stackable": false,
-              "Stretch": true
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "States": {
-            "2": {
-              "GUID": "44b0c5",
-              "Name": "Custom_Tile",
-              "Transform": {
-                "posX": -39.7933121,
-                "posY": 1.63758957,
-                "posZ": 2.038383,
-                "rotX": 359.9201,
-                "rotY": 269.9961,
-                "rotZ": 0.0168742146,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "",
-              "Description": "",
-              "GMNotes": "",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "ColorDiffuse": {
-                "r": 0.6045295,
-                "g": 0.6045295,
-                "b": 0.6045295
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "HideWhenFaceDown": false,
-              "Hands": false,
-              "CustomImage": {
-                "ImageURL": "https://i.imgur.com/HyfE8m8.png",
-                "ImageSecondaryURL": "https://i.imgur.com/HyfE8m8.png",
-                "ImageScalar": 1.0,
-                "WidthScale": 0.0,
-                "CustomTile": {
-                  "Type": 3,
-                  "Thickness": 0.1,
-                  "Stackable": false,
-                  "Stretch": true
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            "3": {
-              "GUID": "5b38c6",
-              "Name": "Custom_Tile",
-              "Transform": {
-                "posX": -38.8217163,
-                "posY": 1.99356019,
-                "posZ": 0.4159239,
-                "rotX": 359.9201,
-                "rotY": 272.9828,
-                "rotZ": 0.01687373,
-                "scaleX": 0.8,
-                "scaleY": 1.0,
-                "scaleZ": 0.8
-              },
-              "Nickname": "",
-              "Description": "",
-              "GMNotes": "",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "ColorDiffuse": {
-                "r": 0.6045295,
-                "g": 0.6045295,
-                "b": 0.6045295
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "HideWhenFaceDown": false,
-              "Hands": false,
-              "CustomImage": {
-                "ImageURL": "https://i.imgur.com/dHKBLoD.png",
-                "ImageSecondaryURL": "https://i.imgur.com/HyfE8m8.png",
-                "ImageScalar": 1.0,
-                "WidthScale": 0.0,
-                "CustomTile": {
-                  "Type": 3,
-                  "Thickness": 0.1,
-                  "Stackable": false,
-                  "Stretch": true
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            }
-          }
-        },
-        {
           "GUID": "256c54",
           "Name": "Custom_Tile",
           "Transform": {
@@ -47538,15 +47404,71 @@
           }
         },
         {
+          "GUID": "38745e",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -30.5000038,
+            "posY": 1.76630151,
+            "posZ": 1.99999428,
+            "rotX": 4.86758427E-06,
+            "rotY": -8.223892E-06,
+            "rotZ": -2.85528774E-08,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Hérétique",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": false,
+          "Tooltip": false,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1478820768302617365/27883B7913E0E69143C3AA03493B7E7C4E8C29C0/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "-- Code for bag to identify text tool objects\r\nmovableTextTool_cowgoesmoo33 = true\r\n\r\n-- Number of characters before the text box width expands.\r\nEXPAND_INTERVAL = 20\r\n\r\n-- This table controls what is passed between save/load\r\ndata = {}\r\n\r\nfunction onLoad(saved_data)\r\n  if saved_data ~= '' then\r\n    data = JSON.decode(saved_data)\r\n    if data.text ~= '' then\r\n      self.interactable = data.interactable\r\n      staticMode()\r\n      return\r\n    end\r\n  else\r\n    data = {size=200, color=Color(0,0,0), text='', interactable=true,\r\n        enter_to_finish=false, autolock=false, autolift=false,\r\n        hover_height=0.05, box_transparency=1}\r\n  end\r\n\r\n  inputMode()\r\nend\r\n\r\n-- True if in the middle of delay after pressing Enter (with enter_to_finish on)\r\nfinishing = false\r\nfunction input_func(obj, color, input, stillEditing)\r\n  local params = getBox(input)\r\n  if params then\r\n    params.value = input\r\n    self.editInput(params)\r\n  end\r\n\r\n  if not stillEditing then\r\n    data.text = input\r\n    updateState()\r\n    if input ~= '' then staticMode(color) end\r\n  elseif data.enter_to_finish then\r\n    -- If enter is pressed: remove last newline and force finish\r\n    if not finishing and input:sub(-1) == '\\n' then\r\n      finishing = true\r\n      -- Delay to avoid user's Enter keypress being detected (opens chat box)\r\n      Wait.frames(function()\r\n        input = input:sub(1, -2)\r\n        data.text = input\r\n        updateState()\r\n        if input ~= '' then staticMode(color) else inputMode() end\r\n        finishing = false\r\n      end, 10)\r\n    end\r\n  end\r\nend\r\n\r\n-- When the inpupt box appears and lets the player type in it.\r\nfunction inputMode()\r\n  self.clearContextMenu()\r\n  self.clearInputs()\r\n  self.clearButtons()\r\n\r\n  local size = getBox(data.text, true)\r\n\r\n  self.createInput({\r\n    input_function = \"input_func\",\r\n    function_owner = self,\r\n    label          = \"Type Here\",\r\n    alignment      = 3,\r\n    position       = {x=0, y=data.hover_height, z=0},\r\n    rotation       = {0, 180, 0},\r\n    width          = size.width,\r\n    height         = size.height,\r\n    color          = getBackground(data.color),\r\n    font_color     = data.color,\r\n    font_size      = data.size,\r\n    value          = data.text,\r\n  })\r\n\r\n  self.addContextMenuItem('Color: Object Tint', function(color)\r\n    applyMultiple(color, 'setColor')\r\n  end)\r\n  self.addContextMenuItem('Color: Player', function(color)\r\n    applyMultiple(color, 'setColor', {Color.fromString(color)})\r\n  end)\r\n  self.addContextMenuItem('Color: Black', function(color)\r\n    applyMultiple(color, 'setColor', {Color(0,0,0)})\r\n  end)\r\n  self.addContextMenuItem('Color: White', function(color)\r\n    applyMultiple(color, 'setColor', {Color(1,1,1)})\r\n  end)\r\n  self.addContextMenuItem('Size: Increase', function(color)\r\n    applyMultiple(color, 'changeSize', {50})\r\n  end, true)\r\n  self.addContextMenuItem('Size: Decrease', function(color)\r\n    applyMultiple(color, 'changeSize', {-50})\r\n  end, true)\r\nend\r\n\r\n-- When the input box disappears and displays the text.\r\nfunction staticMode(player)\r\n  self.clearContextMenu()\r\n  if data.autolock then\r\n    self.locked = true\r\n  end\r\n  if self.getInputs() and #self.getInputs() ~= 0 then\r\n    self.removeInput(0)\r\n  end\r\n\r\n  -- Clear from selecting player\r\n  if player then\r\n    self.removeFromPlayerSelection(player)\r\n  end\r\n\r\n  local displayText = data.text\r\n  if data.enter_to_finish then\r\n    displayText = displayText:gsub('%[n%]', '\\n')\r\n  end\r\n\r\n  self.createButton({\r\n    label=displayText,\r\n    click_function=\"none\",\r\n    function_owner=self,\r\n    position={0,data.hover_height,0}, rotation={0,180,0}, height=0, width=0,\r\n    font_color=data.color, font_size=data.size\r\n  })\r\n\r\n  self.addContextMenuItem('Edit Text', function(color)\r\n    self.removeFromPlayerSelection(color)\r\n    inputMode()\r\n  end)\r\n  self.addContextMenuItem('Clear', function(color)\r\n    applyMultiple(color, 'clear', _, true)\r\n  end)\r\n  self.addContextMenuItem('Color: Object Tint', function(color)\r\n    applyMultiple(color, 'setColor')\r\n  end)\r\n  self.addContextMenuItem('Color: Player', function(color)\r\n    applyMultiple(color, 'setColor', {Color.fromString(color)})\r\n  end)\r\n  self.addContextMenuItem('Color: Black', function(color)\r\n    applyMultiple(color, 'setColor', {Color(0,0,0)})\r\n  end)\r\n  self.addContextMenuItem('Color: White', function(color)\r\n    applyMultiple(color, 'setColor', {Color(1,1,1)})\r\n  end)\r\n  self.addContextMenuItem('Size: Increase', function(color)\r\n    applyMultiple(color, 'changeSize', {50})\r\n  end, true)\r\n  self.addContextMenuItem('Size: Decrease', function(color)\r\n    applyMultiple(color, 'changeSize', {-50})\r\n  end, true)\r\n  self.addContextMenuItem('Permanently Attach', attemptAttach)\r\n  self.addContextMenuItem('Permalock', function(color)\r\n    applyMultiple(color, 'permalock', _, true)\r\n  end)\r\nend\r\n\r\nfunction changeSize(params)\r\n  local delta = params[1]\r\n  local newSize = data.size + delta\r\n  if newSize > 800  or newSize < 50 then\r\n    return\r\n  end\r\n  data.size = newSize\r\n  updateState()\r\n  if self.getButtons() and #self.getButtons() ~= 0 then\r\n    self.editButton({font_size=data.size})\r\n  else\r\n    local size = getBox(data.text, true)\r\n    self.editInput({width=size.width, height=size.height, font_size=data.size})\r\n  end\r\nend\r\n\r\nfunction setColor(params)\r\n  if params and params[1] then\r\n    data.color = params[1]\r\n  else\r\n    data.color = self.getColorTint():setAt('a', 1) -- Take on color of object tint\r\n  end\r\n  updateState()\r\n  if self.getButtons() and #self.getButtons() ~= 0 then\r\n    self.editButton({font_color=data.color})\r\n  else\r\n    self.editInput({font_color=data.color, color=getBackground(data.color)})\r\n  end\r\nend\r\n\r\nfunction getBackground(color) --determines whether to use black or white depending on luminance\r\n  local r,g,b = Color(color):get()\r\n\r\n  local lum = 0.2126*r + 0.7152*g + 0.0722*b\r\n  if lum > 0.75 then\r\n    return {0.2,0.2,0.2, data.box_transparency}\r\n  else\r\n    return {1,1,1, data.box_transparency}\r\n  end\r\nend\r\n\r\nfunction clear()\r\n  data.text = ''\r\n  updateState()\r\n  inputMode()\r\nend\r\n\r\nfunction permalock()\r\n  self.interactable = false\r\n  data.interactable = false\r\n  updateState()\r\nend\r\n\r\nlocal target_script = [[\r\nfunction onLoad(script_state)\r\n  if script_state and script_state ~= '' then\r\n    local state = JSON.decode(script_state)\r\n    for _,entry in ipairs(state) do\r\n      self.createButton(entry)\r\n    end\r\n    self.addContextMenuItem('Clear All Text', function(color)\r\n      self.clearContextMenu()\r\n      self.clearButtons()\r\n      self.script_state = ''\r\n      self.script_code = ''\r\n    end)\r\n  end\r\nend\r\n]]\r\n\r\nfunction attemptAttach(player_color)\r\n  local objs = Player[player_color].getSelectedObjects()\r\n  local attachee\r\n  local attachers = {}\r\n  for _,obj in ipairs(objs) do\r\n    if obj.getVar('movableTextTool_cowgoesmoo33') then\r\n      if obj ~= self then\r\n        table.insert(attachers, obj)\r\n      end\r\n    else\r\n      if attachee then\r\n        broadcastToColor(\"More than one target selected.\", player_color)\r\n        return\r\n      else\r\n        attachee = obj\r\n      end\r\n    end\r\n  end\r\n  if attachee then\r\n    local code = attachee.script_code\r\n    if code and code ~= '' and code ~= target_script then\r\n      broadcastToColor(\"Warning: script on card has been overriden. Rewind time to undo.\", player_color)\r\n    end\r\n    for i,attacher in ipairs(attachers) do\r\n      attacher.call('attach', {target = attachee})\r\n    end\r\n    attach({target = attachee})\r\n    local type, flip = attachee.type, attachee.getRotation().z\r\n    if (type == 'Card' or type == 'Deck') and flip > 175 and flip < 185 then\r\n      broadcastToColor(\"Warning: text will not display if card or deck is facing down.\", player_color)\r\n    end\r\n  else\r\n    broadcastToColor(\"You must have a target object in your selection (using click-and-drag or Ctrl+Click) to use this option.\", player_color)\r\n  end\r\nend\r\n\r\nfunction attach(params)\r\n  local target = params.target\r\n  local displayText = data.text\r\n  if data.enter_to_finish then\r\n    displayText = displayText:gsub('%[n%]', '\\n')\r\n  end\r\n\r\n  local textRotation = self.getRotation():sub(target.getRotation())\r\n    :add(Vector(180, 0, 180))\r\n\r\n  local textPosition = target.positionToLocal(\r\n    self.getPosition():add(Vector(0, data.hover_height, 0))\r\n  )\r\n  textPosition.x = -textPosition.x\r\n\r\n  local textScale = {}\r\n  textScale.x = self.getScale().x / target.getScale().x\r\n  textScale.y = self.getScale().x / target.getScale().y\r\n  textScale.z = self.getScale().x / target.getScale().z\r\n\r\n  local details = {\r\n    label=displayText,\r\n    click_function=\"none\",\r\n    function_owner=nil,\r\n    position=textPosition,\r\n    rotation=textRotation,\r\n    scale=textScale,\r\n    height=0, width=0,\r\n    font_color=data.color, font_size=data.size\r\n  }\r\n\r\n  target.createButton(details)\r\n\r\n  local script_state = target.script_state\r\n  if script_state and script_state ~= '' then\r\n    local state = JSON.decode(script_state)\r\n    table.insert(state, details)\r\n    target.script_state = JSON.encode(state)\r\n  else\r\n    target.script_state = JSON.encode({[1]=details})\r\n  end\r\n\r\n  target.script_code = target_script\r\n\r\n  self.destruct()\r\nend\r\n\r\nfunction applyMultiple(player_color, func_string, params, static_only)\r\n  local objs = Player[player_color].getSelectedObjects()\r\n  for _,obj in ipairs(objs) do\r\n    if obj.getVar('movableTextTool_cowgoesmoo33') then\r\n      if not static_only or obj.call('isStatic') then\r\n        obj.call(func_string, params)\r\n      end\r\n    end\r\n  end\r\nend\r\n\r\nfunction isStatic()\r\n  local input = self.getInputs()\r\n  return not input or #input == 0\r\nend\r\n\r\nfunction getBox(input, force)\r\n  local maxLength, lineCount = EXPAND_INTERVAL, 1\r\n  local lineLength = 0\r\n  for i = 1, #input do\r\n    local c = input:sub(i,i)\r\n    if c == '\\n' then\r\n      lineCount = lineCount + 1\r\n      if lineLength > maxLength then maxLength = (math.floor(lineLength / EXPAND_INTERVAL) + 1) * EXPAND_INTERVAL end\r\n      lineLength = 0\r\n    else\r\n      lineLength = lineLength + 1\r\n    end\r\n  end\r\n  if lineLength > maxLength then maxLength = (math.floor(lineLength / EXPAND_INTERVAL) + 1) * EXPAND_INTERVAL end\r\n\r\n  newWidth = data.size * maxLength * 0.9\r\n  newHeight = data.size * lineCount + 23\r\n\r\n  if force or boxWidth ~= newWidth or boxHeight ~= newHeight then\r\n    boxWidth, boxHeight = newWidth, newHeight\r\n    return {width = boxWidth, height = boxHeight}\r\n  end\r\n  return nil\r\nend\r\n\r\ntemp_lift = nil\r\nfunction onPickUp(player_color)\r\n  if data.autolift then\r\n    local player = Player[player_color]\r\n    temp_lift = player.lift_height\r\n    player.lift_height = 0\r\n  end\r\nend\r\n\r\nfunction onDrop(player_color)\r\n  if data.autolift and temp_lift then\r\n    Player[player_color].lift_height = temp_lift\r\n  end\r\nend\r\n\r\n-- Should be called every time data is modified, allows info to be saved on copy/paste\r\nfunction updateState()\r\n  self.script_state = JSON.encode(data)\r\nend\r\n\r\nfunction onSave()\r\n  self.script_state = JSON.encode(data)\r\n  return self.script_state\r\nend",
+          "LuaScriptState": "{\"autolift\":false,\"autolock\":false,\"box_transparency\":1,\"color\":{\"a\":1,\"b\":1,\"g\":1,\"r\":1},\"enter_to_finish\":false,\"hover_height\":0.05,\"interactable\":true,\"size\":300,\"text\":\"Hérétiques mis de côté\"}",
+          "XmlUI": ""
+        },
+        {
           "GUID": "4e0524",
           "Name": "Card",
           "Transform": {
             "posX": 19.5753269,
             "posY": 1.51699674,
-            "posZ": 9.487496,
-            "rotX": 0.0108956564,
-            "rotY": 180.000381,
-            "rotZ": 0.00492095249,
+            "posZ": 9.487494,
+            "rotX": 0.0108954823,
+            "rotY": 180.00032,
+            "rotZ": 0.004920568,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -47602,9 +47524,9 @@
             "posX": 5.0,
             "posY": 1.51673758,
             "posZ": 1.50000048,
-            "rotX": 0.0108914934,
+            "rotX": 0.0108915092,
             "rotY": 179.999756,
-            "rotZ": 0.004948313,
+            "rotZ": 0.00494825933,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -47657,12 +47579,12 @@
           "GUID": "50fee5",
           "Name": "Card",
           "Transform": {
-            "posX": 0.09389717,
+            "posX": 0.093897,
             "posY": 1.570253,
             "posZ": 17.4997959,
-            "rotX": 0.01090221,
-            "rotY": 180.015579,
-            "rotZ": 0.004938428,
+            "rotX": 0.0109026525,
+            "rotY": 180.0156,
+            "rotZ": 0.004938363,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -47715,11 +47637,11 @@
           "GUID": "5953bc",
           "Name": "Custom_Tile",
           "Transform": {
-            "posX": -4.500001,
+            "posX": -4.50000143,
             "posY": 1.50623453,
             "posZ": 13.5,
-            "rotX": -0.0042028944,
-            "rotY": 45.00019,
+            "rotX": -0.0042034667,
+            "rotY": 45.0002174,
             "rotZ": 359.9888,
             "scaleX": 1.0,
             "scaleY": 1.0,
@@ -47891,7 +47813,7 @@
             "posX": 12.501,
             "posY": 1.53161466,
             "posZ": -6.0168,
-            "rotX": 0.00494827377,
+            "rotX": 0.004948169,
             "rotY": 90.00039,
             "rotZ": 359.9891,
             "scaleX": 1.0,
@@ -48076,12 +47998,12 @@
           "GUID": "6e7fb6",
           "Name": "Card",
           "Transform": {
-            "posX": -0.500003755,
+            "posX": -0.5000043,
             "posY": 1.52025366,
             "posZ": 17.5,
-            "rotX": 0.0108942371,
-            "rotY": 180.015732,
-            "rotZ": 0.00492375623,
+            "rotX": 0.0108944252,
+            "rotY": 180.015762,
+            "rotZ": 0.00492373761,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -48304,15 +48226,203 @@
           }
         },
         {
+          "GUID": "7c7f31",
+          "Name": "Deck",
+          "Transform": {
+            "posX": 17.5049057,
+            "posY": 1.531181,
+            "posZ": -6.025219,
+            "rotX": 0.004947348,
+            "rotY": 89.99549,
+            "rotZ": 359.9891,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "SidewaysCard": true,
+          "DeckIDs": [
+            559003,
+            308700
+          ],
+          "CustomDeck": {
+            "5590": {
+              "FaceURL": "https://i.imgur.com/i5aTWlC.jpg",
+              "BackURL": "https://i.imgur.com/oOecEtq.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": true,
+              "Type": 0
+            },
+            "3087": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1835786036398485948/28FB9C44A77A9464C63B9FACFB7ED5B8B47157A1/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1835786036398486220/79BCB1FCAF77E112A36C4A66AFD2CECC7433CD94/",
+              "NumWidth": 1,
+              "NumHeight": 1,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "80d968",
+              "Name": "Card",
+              "Transform": {
+                "posX": 17.5010033,
+                "posY": 1.51417708,
+                "posZ": -6.01960468,
+                "rotX": 0.005474394,
+                "rotY": 90.00032,
+                "rotZ": 359.985565,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "À la Poursuite des Vivants",
+              "Description": "Acte 2a",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CardID": 559003,
+              "SidewaysCard": true,
+              "CustomDeck": {
+                "5590": {
+                  "FaceURL": "https://i.imgur.com/i5aTWlC.jpg",
+                  "BackURL": "https://i.imgur.com/oOecEtq.jpg",
+                  "NumWidth": 10,
+                  "NumHeight": 7,
+                  "BackIsHidden": false,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "df0442",
+              "Name": "CardCustom",
+              "Transform": {
+                "posX": 17.50099,
+                "posY": 1.55296886,
+                "posZ": -6.019584,
+                "rotX": 0.0017960188,
+                "rotY": 90.0,
+                "rotZ": -0.000746898353,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "À la Poursuite des Morts",
+              "Description": "Acte 1a",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CardID": 308700,
+              "SidewaysCard": true,
+              "CustomDeck": {
+                "3087": {
+                  "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1835786036398485948/28FB9C44A77A9464C63B9FACFB7ED5B8B47157A1/",
+                  "BackURL": "http://cloud-3.steamusercontent.com/ugc/1835786036398486220/79BCB1FCAF77E112A36C4A66AFD2CECC7433CD94/",
+                  "NumWidth": 1,
+                  "NumHeight": 1,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        },
+        {
           "GUID": "82feae",
           "Name": "Card",
           "Transform": {
-            "posX": -0.5000076,
+            "posX": -0.5000078,
             "posY": 1.51873326,
             "posZ": 9.5,
-            "rotX": 0.0108918892,
-            "rotY": 179.995758,
-            "rotZ": 0.004947428,
+            "rotX": 0.0108917868,
+            "rotY": 179.995773,
+            "rotZ": 0.00494743139,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -48368,9 +48478,9 @@
             "posX": 11.5000038,
             "posY": 1.51921725,
             "posZ": 17.5,
-            "rotX": 0.0108973375,
+            "rotX": 0.01089728,
             "rotY": 179.981216,
-            "rotZ": 0.00491709029,
+            "rotZ": 0.004916992,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -48424,11 +48534,11 @@
           "Name": "Deck",
           "Transform": {
             "posX": 30.50097,
-            "posY": 1.65728343,
-            "posZ": -7.75265646,
-            "rotX": 0.00308806263,
+            "posY": 1.66063106,
+            "posZ": -7.75290346,
+            "rotX": 0.128022313,
             "rotY": 180.008179,
-            "rotZ": 180.0017,
+            "rotZ": 180.001236,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -49694,9 +49804,9 @@
             "posX": 12.0939035,
             "posY": 1.56921661,
             "posZ": 17.5002,
-            "rotX": 0.01090527,
+            "rotX": 0.0109052332,
             "rotY": 179.981308,
-            "rotZ": 0.00493159238,
+            "rotZ": 0.004931496,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -50047,9 +50157,9 @@
           "Name": "Deck",
           "Transform": {
             "posX": 30.5,
-            "posY": 1.67653608,
+            "posY": 1.68099225,
             "posZ": -3.0001,
-            "rotX": -0.000590950251,
+            "rotX": -0.000590697455,
             "rotY": 180.00087,
             "rotZ": 180.001068,
             "scaleX": 1.0,
@@ -51612,8 +51722,8 @@
             "posY": 1.50485265,
             "posZ": 13.5,
             "rotX": 359.9891,
-            "rotY": 0.000159293922,
-            "rotZ": -0.00494763767,
+            "rotY": 0.0001593246,
+            "rotZ": -0.004946875,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -51781,12 +51891,12 @@
           "GUID": "af1fb0",
           "Name": "Card",
           "Transform": {
-            "posX": -8.500012,
+            "posX": -8.500013,
             "posY": 1.51942384,
             "posZ": 9.5,
-            "rotX": 0.0108932164,
-            "rotY": 180.028137,
-            "rotZ": 0.00492608,
+            "rotX": 0.0108933076,
+            "rotY": 180.028152,
+            "rotZ": 0.004925916,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -51842,9 +51952,9 @@
             "posX": 33.5,
             "posY": 1.540875,
             "posZ": -10.0,
-            "rotX": 8.24305E-09,
-            "rotY": 0.000155875052,
-            "rotZ": -5.216369E-06,
+            "rotX": 1.89776671E-07,
+            "rotY": 0.000155886155,
+            "rotZ": -5.02087232E-06,
             "scaleX": 0.8750001,
             "scaleY": 0.8750001,
             "scaleZ": 0.8750001
@@ -51897,10 +52007,10 @@
           "Transform": {
             "posX": 23.501358,
             "posY": 1.51380479,
-            "posZ": -5.522934,
-            "rotX": 0.0108914925,
-            "rotY": 180.0,
-            "rotZ": 0.004948455,
+            "posZ": -5.52293348,
+            "rotX": 0.0108915344,
+            "rotY": 180.000015,
+            "rotZ": 0.004948134,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -51956,7 +52066,7 @@
             "posX": 5.0,
             "posY": 1.50465369,
             "posZ": 9.5,
-            "rotX": 0.00494780531,
+            "rotX": 0.004947906,
             "rotY": 90.0002441,
             "rotZ": 359.9891,
             "scaleX": 1.0,
@@ -52131,7 +52241,7 @@
             "posZ": 13.5,
             "rotX": 359.9888,
             "rotY": 314.9999,
-            "rotZ": 0.004204291,
+            "rotZ": 0.004204136,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -52302,9 +52412,9 @@
             "posX": -20.4999981,
             "posY": 1.80067348,
             "posZ": 10.0,
-            "rotX": -4.978387E-06,
+            "rotX": -5.02316834E-06,
             "rotY": 180.000687,
-            "rotZ": -2.3862566E-07,
+            "rotZ": -5.43780025E-08,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -52539,10 +52649,10 @@
           "Transform": {
             "posX": 20.1697235,
             "posY": 1.5669961,
-            "posZ": 9.484299,
-            "rotX": 0.0109038837,
-            "rotY": 180.000778,
-            "rotZ": 0.00493638776,
+            "posZ": 9.484298,
+            "rotX": 0.0109030968,
+            "rotY": 180.000748,
+            "rotZ": 0.00493543455,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -52598,9 +52708,9 @@
             "posX": 8.0,
             "posY": 1.50363421,
             "posZ": 5.49999857,
-            "rotX": 0.004203054,
+            "rotX": 0.004203042,
             "rotY": 224.999817,
-            "rotZ": 0.0112043871,
+            "rotZ": 0.0112043787,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -52770,10 +52880,10 @@
           "Transform": {
             "posX": -21.5000057,
             "posY": 1.76630151,
-            "posZ": 1.99999464,
-            "rotX": 5.17951639E-06,
-            "rotY": -0.0002687862,
-            "rotZ": -1.83317567E-07,
+            "posZ": 1.9999938,
+            "rotX": 5.19886544E-06,
+            "rotY": -0.000305077876,
+            "rotZ": 2.12489439E-07,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -52819,6 +52929,84 @@
           "LuaScript": "-- Code for bag to identify text tool objects\r\nmovableTextTool_cowgoesmoo33 = true\r\n\r\n-- Number of characters before the text box width expands.\r\nEXPAND_INTERVAL = 20\r\n\r\n-- This table controls what is passed between save/load\r\ndata = {}\r\n\r\nfunction onLoad(saved_data)\r\n  if saved_data ~= '' then\r\n    data = JSON.decode(saved_data)\r\n    if data.text ~= '' then\r\n      self.interactable = data.interactable\r\n      staticMode()\r\n      return\r\n    end\r\n  else\r\n    data = {size=200, color=Color(0,0,0), text='', interactable=true,\r\n        enter_to_finish=false, autolock=false, autolift=false,\r\n        hover_height=0.05, box_transparency=1}\r\n  end\r\n\r\n  inputMode()\r\nend\r\n\r\n-- True if in the middle of delay after pressing Enter (with enter_to_finish on)\r\nfinishing = false\r\nfunction input_func(obj, color, input, stillEditing)\r\n  local params = getBox(input)\r\n  if params then\r\n    params.value = input\r\n    self.editInput(params)\r\n  end\r\n\r\n  if not stillEditing then\r\n    data.text = input\r\n    updateState()\r\n    if input ~= '' then staticMode(color) end\r\n  elseif data.enter_to_finish then\r\n    -- If enter is pressed: remove last newline and force finish\r\n    if not finishing and input:sub(-1) == '\\n' then\r\n      finishing = true\r\n      -- Delay to avoid user's Enter keypress being detected (opens chat box)\r\n      Wait.frames(function()\r\n        input = input:sub(1, -2)\r\n        data.text = input\r\n        updateState()\r\n        if input ~= '' then staticMode(color) else inputMode() end\r\n        finishing = false\r\n      end, 10)\r\n    end\r\n  end\r\nend\r\n\r\n-- When the inpupt box appears and lets the player type in it.\r\nfunction inputMode()\r\n  self.clearContextMenu()\r\n  self.clearInputs()\r\n  self.clearButtons()\r\n\r\n  local size = getBox(data.text, true)\r\n\r\n  self.createInput({\r\n    input_function = \"input_func\",\r\n    function_owner = self,\r\n    label          = \"Type Here\",\r\n    alignment      = 3,\r\n    position       = {x=0, y=data.hover_height, z=0},\r\n    rotation       = {0, 180, 0},\r\n    width          = size.width,\r\n    height         = size.height,\r\n    color          = getBackground(data.color),\r\n    font_color     = data.color,\r\n    font_size      = data.size,\r\n    value          = data.text,\r\n  })\r\n\r\n  self.addContextMenuItem('Color: Object Tint', function(color)\r\n    applyMultiple(color, 'setColor')\r\n  end)\r\n  self.addContextMenuItem('Color: Player', function(color)\r\n    applyMultiple(color, 'setColor', {Color.fromString(color)})\r\n  end)\r\n  self.addContextMenuItem('Color: Black', function(color)\r\n    applyMultiple(color, 'setColor', {Color(0,0,0)})\r\n  end)\r\n  self.addContextMenuItem('Color: White', function(color)\r\n    applyMultiple(color, 'setColor', {Color(1,1,1)})\r\n  end)\r\n  self.addContextMenuItem('Size: Increase', function(color)\r\n    applyMultiple(color, 'changeSize', {50})\r\n  end, true)\r\n  self.addContextMenuItem('Size: Decrease', function(color)\r\n    applyMultiple(color, 'changeSize', {-50})\r\n  end, true)\r\nend\r\n\r\n-- When the input box disappears and displays the text.\r\nfunction staticMode(player)\r\n  self.clearContextMenu()\r\n  if data.autolock then\r\n    self.locked = true\r\n  end\r\n  if self.getInputs() and #self.getInputs() ~= 0 then\r\n    self.removeInput(0)\r\n  end\r\n\r\n  -- Clear from selecting player\r\n  if player then\r\n    self.removeFromPlayerSelection(player)\r\n  end\r\n\r\n  local displayText = data.text\r\n  if data.enter_to_finish then\r\n    displayText = displayText:gsub('%[n%]', '\\n')\r\n  end\r\n\r\n  self.createButton({\r\n    label=displayText,\r\n    click_function=\"none\",\r\n    function_owner=self,\r\n    position={0,data.hover_height,0}, rotation={0,180,0}, height=0, width=0,\r\n    font_color=data.color, font_size=data.size\r\n  })\r\n\r\n  self.addContextMenuItem('Edit Text', function(color)\r\n    self.removeFromPlayerSelection(color)\r\n    inputMode()\r\n  end)\r\n  self.addContextMenuItem('Clear', function(color)\r\n    applyMultiple(color, 'clear', _, true)\r\n  end)\r\n  self.addContextMenuItem('Color: Object Tint', function(color)\r\n    applyMultiple(color, 'setColor')\r\n  end)\r\n  self.addContextMenuItem('Color: Player', function(color)\r\n    applyMultiple(color, 'setColor', {Color.fromString(color)})\r\n  end)\r\n  self.addContextMenuItem('Color: Black', function(color)\r\n    applyMultiple(color, 'setColor', {Color(0,0,0)})\r\n  end)\r\n  self.addContextMenuItem('Color: White', function(color)\r\n    applyMultiple(color, 'setColor', {Color(1,1,1)})\r\n  end)\r\n  self.addContextMenuItem('Size: Increase', function(color)\r\n    applyMultiple(color, 'changeSize', {50})\r\n  end, true)\r\n  self.addContextMenuItem('Size: Decrease', function(color)\r\n    applyMultiple(color, 'changeSize', {-50})\r\n  end, true)\r\n  self.addContextMenuItem('Permanently Attach', attemptAttach)\r\n  self.addContextMenuItem('Permalock', function(color)\r\n    applyMultiple(color, 'permalock', _, true)\r\n  end)\r\nend\r\n\r\nfunction changeSize(params)\r\n  local delta = params[1]\r\n  local newSize = data.size + delta\r\n  if newSize > 800  or newSize < 50 then\r\n    return\r\n  end\r\n  data.size = newSize\r\n  updateState()\r\n  if self.getButtons() and #self.getButtons() ~= 0 then\r\n    self.editButton({font_size=data.size})\r\n  else\r\n    local size = getBox(data.text, true)\r\n    self.editInput({width=size.width, height=size.height, font_size=data.size})\r\n  end\r\nend\r\n\r\nfunction setColor(params)\r\n  if params and params[1] then\r\n    data.color = params[1]\r\n  else\r\n    data.color = self.getColorTint():setAt('a', 1) -- Take on color of object tint\r\n  end\r\n  updateState()\r\n  if self.getButtons() and #self.getButtons() ~= 0 then\r\n    self.editButton({font_color=data.color})\r\n  else\r\n    self.editInput({font_color=data.color, color=getBackground(data.color)})\r\n  end\r\nend\r\n\r\nfunction getBackground(color) --determines whether to use black or white depending on luminance\r\n  local r,g,b = Color(color):get()\r\n\r\n  local lum = 0.2126*r + 0.7152*g + 0.0722*b\r\n  if lum > 0.75 then\r\n    return {0.2,0.2,0.2, data.box_transparency}\r\n  else\r\n    return {1,1,1, data.box_transparency}\r\n  end\r\nend\r\n\r\nfunction clear()\r\n  data.text = ''\r\n  updateState()\r\n  inputMode()\r\nend\r\n\r\nfunction permalock()\r\n  self.interactable = false\r\n  data.interactable = false\r\n  updateState()\r\nend\r\n\r\nlocal target_script = [[\r\nfunction onLoad(script_state)\r\n  if script_state and script_state ~= '' then\r\n    local state = JSON.decode(script_state)\r\n    for _,entry in ipairs(state) do\r\n      self.createButton(entry)\r\n    end\r\n    self.addContextMenuItem('Clear All Text', function(color)\r\n      self.clearContextMenu()\r\n      self.clearButtons()\r\n      self.script_state = ''\r\n      self.script_code = ''\r\n    end)\r\n  end\r\nend\r\n]]\r\n\r\nfunction attemptAttach(player_color)\r\n  local objs = Player[player_color].getSelectedObjects()\r\n  local attachee\r\n  local attachers = {}\r\n  for _,obj in ipairs(objs) do\r\n    if obj.getVar('movableTextTool_cowgoesmoo33') then\r\n      if obj ~= self then\r\n        table.insert(attachers, obj)\r\n      end\r\n    else\r\n      if attachee then\r\n        broadcastToColor(\"More than one target selected.\", player_color)\r\n        return\r\n      else\r\n        attachee = obj\r\n      end\r\n    end\r\n  end\r\n  if attachee then\r\n    local code = attachee.script_code\r\n    if code and code ~= '' and code ~= target_script then\r\n      broadcastToColor(\"Warning: script on card has been overriden. Rewind time to undo.\", player_color)\r\n    end\r\n    for i,attacher in ipairs(attachers) do\r\n      attacher.call('attach', {target = attachee})\r\n    end\r\n    attach({target = attachee})\r\n    local type, flip = attachee.type, attachee.getRotation().z\r\n    if (type == 'Card' or type == 'Deck') and flip > 175 and flip < 185 then\r\n      broadcastToColor(\"Warning: text will not display if card or deck is facing down.\", player_color)\r\n    end\r\n  else\r\n    broadcastToColor(\"You must have a target object in your selection (using click-and-drag or Ctrl+Click) to use this option.\", player_color)\r\n  end\r\nend\r\n\r\nfunction attach(params)\r\n  local target = params.target\r\n  local displayText = data.text\r\n  if data.enter_to_finish then\r\n    displayText = displayText:gsub('%[n%]', '\\n')\r\n  end\r\n\r\n  local textRotation = self.getRotation():sub(target.getRotation())\r\n    :add(Vector(180, 0, 180))\r\n\r\n  local textPosition = target.positionToLocal(\r\n    self.getPosition():add(Vector(0, data.hover_height, 0))\r\n  )\r\n  textPosition.x = -textPosition.x\r\n\r\n  local textScale = {}\r\n  textScale.x = self.getScale().x / target.getScale().x\r\n  textScale.y = self.getScale().x / target.getScale().y\r\n  textScale.z = self.getScale().x / target.getScale().z\r\n\r\n  local details = {\r\n    label=displayText,\r\n    click_function=\"none\",\r\n    function_owner=nil,\r\n    position=textPosition,\r\n    rotation=textRotation,\r\n    scale=textScale,\r\n    height=0, width=0,\r\n    font_color=data.color, font_size=data.size\r\n  }\r\n\r\n  target.createButton(details)\r\n\r\n  local script_state = target.script_state\r\n  if script_state and script_state ~= '' then\r\n    local state = JSON.decode(script_state)\r\n    table.insert(state, details)\r\n    target.script_state = JSON.encode(state)\r\n  else\r\n    target.script_state = JSON.encode({[1]=details})\r\n  end\r\n\r\n  target.script_code = target_script\r\n\r\n  self.destruct()\r\nend\r\n\r\nfunction applyMultiple(player_color, func_string, params, static_only)\r\n  local objs = Player[player_color].getSelectedObjects()\r\n  for _,obj in ipairs(objs) do\r\n    if obj.getVar('movableTextTool_cowgoesmoo33') then\r\n      if not static_only or obj.call('isStatic') then\r\n        obj.call(func_string, params)\r\n      end\r\n    end\r\n  end\r\nend\r\n\r\nfunction isStatic()\r\n  local input = self.getInputs()\r\n  return not input or #input == 0\r\nend\r\n\r\nfunction getBox(input, force)\r\n  local maxLength, lineCount = EXPAND_INTERVAL, 1\r\n  local lineLength = 0\r\n  for i = 1, #input do\r\n    local c = input:sub(i,i)\r\n    if c == '\\n' then\r\n      lineCount = lineCount + 1\r\n      if lineLength > maxLength then maxLength = (math.floor(lineLength / EXPAND_INTERVAL) + 1) * EXPAND_INTERVAL end\r\n      lineLength = 0\r\n    else\r\n      lineLength = lineLength + 1\r\n    end\r\n  end\r\n  if lineLength > maxLength then maxLength = (math.floor(lineLength / EXPAND_INTERVAL) + 1) * EXPAND_INTERVAL end\r\n\r\n  newWidth = data.size * maxLength * 0.9\r\n  newHeight = data.size * lineCount + 23\r\n\r\n  if force or boxWidth ~= newWidth or boxHeight ~= newHeight then\r\n    boxWidth, boxHeight = newWidth, newHeight\r\n    return {width = boxWidth, height = boxHeight}\r\n  end\r\n  return nil\r\nend\r\n\r\ntemp_lift = nil\r\nfunction onPickUp(player_color)\r\n  if data.autolift then\r\n    local player = Player[player_color]\r\n    temp_lift = player.lift_height\r\n    player.lift_height = 0\r\n  end\r\nend\r\n\r\nfunction onDrop(player_color)\r\n  if data.autolift and temp_lift then\r\n    Player[player_color].lift_height = temp_lift\r\n  end\r\nend\r\n\r\n-- Should be called every time data is modified, allows info to be saved on copy/paste\r\nfunction updateState()\r\n  self.script_state = JSON.encode(data)\r\nend\r\n\r\nfunction onSave()\r\n  self.script_state = JSON.encode(data)\r\n  return self.script_state\r\nend",
           "LuaScriptState": "{\"autolift\":false,\"autolock\":false,\"box_transparency\":1,\"color\":{\"a\":1,\"b\":1,\"g\":1,\"r\":1},\"enter_to_finish\":false,\"hover_height\":0.05,\"interactable\":true,\"size\":300,\"text\":\"Mise en place Hérétiques\"}",
           "XmlUI": ""
+        },
+        {
+          "GUID": "ff3b4a",
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 32.9995,
+            "posY": 1.54,
+            "posZ": -8.8327,
+            "rotX": 0.0,
+            "rotY": 179.9766,
+            "rotZ": 180.0,
+            "scaleX": 1.66856647,
+            "scaleY": 0.3,
+            "scaleZ": 0.6767996
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.442961633,
+            "g": 0.230961621,
+            "b": 0.08996878
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "chry.me/tts/3droom/floorpad.unity3d",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 3,
+            "TypeIndex": 4,
+            "LoopingEffectIndex": 0
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "AttachedSnapPoints": [
+            {
+              "Position": {
+                "x": -1.49716341,
+                "y": -1.13111449E-08,
+                "z": -1.59733665
+              },
+              "Rotation": {
+                "x": -0.00309233274,
+                "y": 359.9685,
+                "z": 0.001698931
+              }
+            },
+            {
+              "Position": {
+                "x": 1.19917738,
+                "y": -2.0438693E-09,
+                "z": -1.59855163
+              },
+              "Rotation": {
+                "x": -0.0002668099,
+                "y": 359.977783,
+                "z": 180.000946
+              }
+            }
+          ]
         }
       ],
       "AttachedDecals": [
@@ -52848,10 +53036,10 @@
       "Transform": {
         "posX": -20.0,
         "posY": 1.47986,
-        "posZ": -4.999999,
-        "rotX": 5.468918E-08,
-        "rotY": 180.0057,
-        "rotZ": 7.280795E-08,
+        "posZ": -5.0,
+        "rotX": -8.073826E-08,
+        "rotY": 180.005722,
+        "rotZ": -9.810498E-08,
         "scaleX": 2.05722,
         "scaleY": 1.0,
         "scaleZ": 2.05722
@@ -52886,7 +53074,7 @@
       "CustomPDF": {
         "PDFUrl": "http://cloud-3.steamusercontent.com/ugc/1936013662297840127/39BB28BFF5885D3B7DF4F07E892862D9256B8428/",
         "PDFPassword": "",
-        "PDFPage": 51,
+        "PDFPage": 0,
         "PDFPageOffset": 0
       },
       "LuaScript": "",
@@ -52898,11 +53086,11 @@
       "Name": "Custom_Model_Bag",
       "Transform": {
         "posX": -4.98096466,
-        "posY": 0.969936669,
+        "posY": 0.9699368,
         "posZ": 44.49991,
-        "rotX": 1.36366834E-05,
+        "rotX": 1.3674955E-05,
         "rotY": 179.997284,
-        "rotZ": -5.976239E-05,
+        "rotZ": -5.96869031E-05,
         "scaleX": 1.13539386,
         "scaleY": 0.236326337,
         "scaleZ": 1.243282
@@ -57600,12 +57788,12 @@
       "GUID": "9c5107",
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": -65.99889,
+        "posX": -65.9989,
         "posY": 1.04956961,
-        "posZ": -5.99720335,
-        "rotX": -0.00480355974,
-        "rotY": -0.00535531947,
-        "rotZ": 0.00147446082,
+        "posZ": -5.9972024,
+        "rotX": -0.00480370875,
+        "rotY": -0.00534323324,
+        "rotZ": 0.00147447747,
         "scaleX": 0.7,
         "scaleY": 0.7,
         "scaleZ": 0.7
@@ -58475,12 +58663,12 @@
       "GUID": "a351fa",
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 33.0,
-        "posY": 1.49215221,
-        "posZ": 11.9998007,
-        "rotX": 0.0109092053,
-        "rotY": 179.971115,
-        "rotZ": 0.1022938,
+        "posX": 32.99999,
+        "posY": 1.492156,
+        "posZ": 11.9996119,
+        "rotX": 0.0009007165,
+        "rotY": 179.970657,
+        "rotZ": 0.112334885,
         "scaleX": 6.221754,
         "scaleY": 1.0,
         "scaleZ": 6.221754
@@ -58591,12 +58779,12 @@
       "GUID": "c56bf6",
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": -0.481175333,
+        "posX": -0.4809997,
         "posY": 0.969941258,
-        "posZ": 44.4999771,
-        "rotX": 1.367333E-05,
-        "rotY": 179.978546,
-        "rotZ": -5.93702935E-05,
+        "posZ": 44.4999,
+        "rotX": 1.3660735E-05,
+        "rotY": 179.978622,
+        "rotZ": -5.961897E-05,
         "scaleX": 1.16795754,
         "scaleY": 0.2431043,
         "scaleZ": 1.27894008
@@ -66257,12 +66445,12 @@
       "GUID": "db93d3",
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": -58.9999962,
-        "posY": 1.04974961,
-        "posZ": -6.0,
-        "rotX": -0.00480273273,
+        "posX": -59.0,
+        "posY": 1.04974949,
+        "posZ": -6.00000048,
+        "rotX": -0.0048031183,
         "rotY": 359.97818,
-        "rotZ": 0.00147608854,
+        "rotZ": 0.00147590507,
         "scaleX": 0.7,
         "scaleY": 0.7,
         "scaleZ": 0.7
@@ -67132,12 +67320,12 @@
       "GUID": "de4835",
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": -62.4999962,
-        "posY": 1.04965937,
-        "posZ": -6.000002,
-        "rotX": -0.00480329944,
-        "rotY": 4.50256848E-05,
-        "rotZ": 0.00147439784,
+        "posX": -62.5,
+        "posY": 1.04965949,
+        "posZ": -6.000001,
+        "rotX": -0.00480435742,
+        "rotY": 5.449724E-05,
+        "rotZ": 0.00147403579,
         "scaleX": 0.7,
         "scaleY": 0.7,
         "scaleZ": 0.7
