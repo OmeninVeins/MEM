@@ -8,7 +8,7 @@
     {"name":"Les Dévoreurs de Rêves", "url":"campaigns/Les_Devoreurs_de_Reves.json", "replace":"56780b"},
     {"name":"La Conspiration d'Innsmouth", "url":"campaigns/La_Conspiration_dInnsmouth.json", "replace":"01c1bc"},
     {"name":"Aux Confins de la Terre", "url":"campaigns/Aux_Confins_de_la_Terre.json", "replace":"0ad50e"},
-    {"name":"Les Clefs Écarlates", "url":"campaigns/Les_Clefs_Ecarlates", "replace":"cc5aab"},
+    {"name":"Les Clefs Écarlates", "url":"campaigns/Les_Clefs_Ecarlates.json", "replace":"cc5aab"},
     {"name":"Renouveau - La Nuit de la Zélatrice", "url":"campaigns/Renouveau_LNZ.json", "replace":"ba381f"},
     {"name":"Renouveau - L'Héritage de Dunwitch", "url":"campaigns/Renouveau_LHD.json", "replace":"306162"},
     {"name":"Renouveau - La Route de Carcosa", "url":"campaigns/Renouveau_LRC.json", "replace":"f5ba81"},
