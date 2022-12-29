@@ -2,12 +2,12 @@
   "GUID": "cc5aab",
   "Name": "Custom_Model_Bag",
   "Transform": {
-    "posX": -69.00093,
+    "posX": -69.000145,
     "posY": 0.9799991,
-    "posZ": 33.4999237,
-    "rotX": -4.06401432E-06,
-    "rotY": 180.003326,
-    "rotZ": 3.42369958E-07,
+    "posZ": 33.4998779,
+    "rotX": -4.94989172E-06,
+    "rotY": 180.003189,
+    "rotZ": 4.68312976E-07,
     "scaleX": 0.6144237,
     "scaleY": 0.08580595,
     "scaleZ": 0.6144237
@@ -7142,284 +7142,6 @@
       ]
     },
     {
-      "GUID": "f1bddd",
-      "Name": "Custom_Model_Infinite_Bag",
-      "Transform": {
-        "posX": 13.6181,
-        "posY": 3.2654,
-        "posZ": 66.5639,
-        "rotX": 0.0213007983,
-        "rotY": 90.09421,
-        "rotZ": 344.7938,
-        "scaleX": 0.5750004,
-        "scaleY": 0.5750004,
-        "scaleZ": 0.5750004
-      },
-      "Nickname": "Épingles",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.856,
-        "g": 0.09999826,
-        "b": 0.09399826
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "MaterialIndex": -1,
-      "MeshIndex": -1,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1000305627040878554/39FD591BB074CA6ACFA5A0A86FB164912CBAD50F/",
-        "DiffuseURL": "",
-        "NormalURL": "",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 0,
-        "TypeIndex": 7,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "PhysicsMaterial": {
-        "StaticFriction": 1.0,
-        "DynamicFriction": 0.7,
-        "Bounciness": 0.0,
-        "FrictionCombine": 0,
-        "BounceCombine": 0
-      },
-      "Rigidbody": {
-        "Mass": 0.8937501,
-        "Drag": 0.1,
-        "AngularDrag": 90.0,
-        "UseGravity": true
-      },
-      "ContainedObjects": [
-        {
-          "GUID": "a24494",
-          "Name": "Custom_Model",
-          "Transform": {
-            "posX": 13.2483416,
-            "posY": 2.23304129,
-            "posZ": 66.58296,
-            "rotX": 359.7572,
-            "rotY": 179.814178,
-            "rotZ": 344.895935,
-            "scaleX": 0.400000453,
-            "scaleY": 0.400000453,
-            "scaleZ": 0.400000453
-          },
-          "Nickname": "Destination actuelle",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.856,
-            "g": 0.09999832,
-            "b": 0.09399832
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": false,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomMesh": {
-            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1000305627040878554/39FD591BB074CA6ACFA5A0A86FB164912CBAD50F/",
-            "DiffuseURL": "",
-            "NormalURL": "",
-            "ColliderURL": "",
-            "Convex": true,
-            "MaterialIndex": 0,
-            "TypeIndex": 1,
-            "CastShadows": true
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "PhysicsMaterial": {
-            "StaticFriction": 1.0,
-            "DynamicFriction": 0.7,
-            "Bounciness": 0.0,
-            "FrictionCombine": 0,
-            "BounceCombine": 0
-          },
-          "Rigidbody": {
-            "Mass": 0.8500001,
-            "Drag": 0.1,
-            "AngularDrag": 90.0,
-            "UseGravity": true
-          },
-          "States": {
-            "2": {
-              "GUID": "0c920a",
-              "Name": "Custom_Model",
-              "Transform": {
-                "posX": 18.24142,
-                "posY": -1.13366282,
-                "posZ": 66.5072556,
-                "rotX": 359.922516,
-                "rotY": 270.309662,
-                "rotZ": 15.0985327,
-                "scaleX": 0.400000453,
-                "scaleY": 0.400000453,
-                "scaleZ": 0.400000453
-              },
-              "Nickname": "Destination visitée",
-              "Description": "",
-              "GMNotes": "",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "ColorDiffuse": {
-                "r": 0.249999583,
-                "g": 0.249999583,
-                "b": 0.249999583
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "HideWhenFaceDown": false,
-              "Hands": false,
-              "CustomMesh": {
-                "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1000305627040878554/39FD591BB074CA6ACFA5A0A86FB164912CBAD50F/",
-                "DiffuseURL": "",
-                "NormalURL": "",
-                "ColliderURL": "",
-                "Convex": true,
-                "MaterialIndex": 0,
-                "TypeIndex": 1,
-                "CastShadows": true
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": "",
-              "PhysicsMaterial": {
-                "StaticFriction": 1.0,
-                "DynamicFriction": 0.7,
-                "Bounciness": 0.0,
-                "FrictionCombine": 0,
-                "BounceCombine": 0
-              },
-              "Rigidbody": {
-                "Mass": 0.8500001,
-                "Drag": 0.1,
-                "AngularDrag": 90.0,
-                "UseGravity": true
-              }
-            },
-            "3": {
-              "GUID": "b59183",
-              "Name": "Custom_Model",
-              "Transform": {
-                "posX": 15.5001431,
-                "posY": -0.9961394,
-                "posZ": 67.01639,
-                "rotX": 359.8753,
-                "rotY": 270.485046,
-                "rotZ": 15.2505426,
-                "scaleX": 0.400000453,
-                "scaleY": 0.400000453,
-                "scaleZ": 0.400000453
-              },
-              "Nickname": "Destination dévérouillée",
-              "Description": "",
-              "GMNotes": "",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "ColorDiffuse": {
-                "r": 0.0,
-                "g": 0.3461043,
-                "b": 0.750871
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "HideWhenFaceDown": false,
-              "Hands": false,
-              "CustomMesh": {
-                "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1000305627040878554/39FD591BB074CA6ACFA5A0A86FB164912CBAD50F/",
-                "DiffuseURL": "",
-                "NormalURL": "",
-                "ColliderURL": "",
-                "Convex": true,
-                "MaterialIndex": 0,
-                "TypeIndex": 1,
-                "CastShadows": true
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": "",
-              "PhysicsMaterial": {
-                "StaticFriction": 1.0,
-                "DynamicFriction": 0.7,
-                "Bounciness": 0.0,
-                "FrictionCombine": 0,
-                "BounceCombine": 0
-              },
-              "Rigidbody": {
-                "Mass": 0.8500001,
-                "Drag": 0.1,
-                "AngularDrag": 90.0,
-                "UseGravity": true
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
       "GUID": "1ecb29",
       "Name": "Custom_Model_Bag",
       "Transform": {
@@ -12541,9 +12263,9 @@
         "posX": 5.298084,
         "posY": 5.247651,
         "posZ": 74.35616,
-        "rotX": 15.00001,
+        "rotX": 15.0000162,
         "rotY": 180.0,
-        "rotZ": 2.634202E-13,
+        "rotZ": 3.68788279E-13,
         "scaleX": 17.0,
         "scaleY": 1.0,
         "scaleZ": 17.0
@@ -12579,7 +12301,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/5077277234384648390/7E80EFC373741E69B1BEFD81C80BB872DE817775/",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/5077277234385329658/F7CC926983CDB311C8F407158BB9DE58152B6862/",
         "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1974294597230327710/5F1A5C2B45BD5C2C4F4D76DEEF99C32EEF6EC057/",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -12596,139 +12318,6 @@
       "AttachedSnapPoints": [
         {
           "Position": {
-            "x": 0.07635791,
-            "y": 0.09999931,
-            "z": -0.603100061
-          }
-        },
-        {
-          "Position": {
-            "x": 1.29507971,
-            "y": 0.09999708,
-            "z": -0.705785751
-          }
-        },
-        {
-          "Position": {
-            "x": 1.24817276,
-            "y": 0.09999784,
-            "z": -0.441536278
-          }
-        },
-        {
-          "Position": {
-            "x": 0.740849257,
-            "y": 0.09999935,
-            "z": -0.494686753
-          }
-        },
-        {
-          "Position": {
-            "x": 0.9685267,
-            "y": 0.09999884,
-            "z": -0.350137055
-          }
-        },
-        {
-          "Position": {
-            "x": 0.901012063,
-            "y": 0.09999934,
-            "z": -0.328591645
-          }
-        },
-        {
-          "Position": {
-            "x": 0.900648236,
-            "y": 0.09999945,
-            "z": -0.2729523
-          }
-        },
-        {
-          "Position": {
-            "x": 0.6969688,
-            "y": 0.100000918,
-            "z": -0.383043557
-          }
-        },
-        {
-          "Position": {
-            "x": 0.7553627,
-            "y": 0.100000143,
-            "z": -0.216865018
-          }
-        },
-        {
-          "Position": {
-            "x": 0.891472757,
-            "y": 0.09999977,
-            "z": -4.34544927E-05
-          }
-        },
-        {
-          "Position": {
-            "x": 0.5135847,
-            "y": 0.100000836,
-            "z": 0.2681755
-          }
-        },
-        {
-          "Position": {
-            "x": 0.6470734,
-            "y": 0.100000031,
-            "z": 0.414050877
-          }
-        },
-        {
-          "Position": {
-            "x": 0.241543859,
-            "y": 0.09999801,
-            "z": -0.743218362
-          }
-        },
-        {
-          "Position": {
-            "x": -0.07571673,
-            "y": 0.100000158,
-            "z": -0.6914341
-          }
-        },
-        {
-          "Position": {
-            "x": -0.257367283,
-            "y": 0.100000732,
-            "z": -0.6615614
-          }
-        },
-        {
-          "Position": {
-            "x": -0.0270482954,
-            "y": 0.0999998152,
-            "z": -0.5858316
-          }
-        },
-        {
-          "Position": {
-            "x": -0.0359780341,
-            "y": 0.09999991,
-            "z": -0.490875244
-          }
-        },
-        {
-          "Position": {
-            "x": -0.184346318,
-            "y": 0.100000516,
-            "z": -0.483214438
-          }
-        },
-        {
-          "Position": {
-            "x": -0.199743882,
-            "y": 0.100000776,
-            "z": -0.3691622
-          }
-        },
-        {
-          "Position": {
             "x": 0.166247025,
             "y": 0.09999888,
             "z": -0.373217851
@@ -12736,107 +12325,240 @@
         },
         {
           "Position": {
-            "x": 0.0585595556,
-            "y": 0.09999973,
-            "z": -0.07453783
+            "x": 1.29735553,
+            "y": 0.0999996662,
+            "z": -0.704983
           }
         },
         {
           "Position": {
-            "x": -0.287048548,
-            "y": 0.100001283,
-            "z": 0.0151757384
-          }
-        },
-        {
-          "Position": {
-            "x": -0.585006356,
-            "y": 0.0999991149,
-            "z": -0.415474445
-          }
-        },
-        {
-          "Position": {
-            "x": -0.639407754,
-            "y": 0.09999989,
-            "z": -0.21977599
-          }
-        },
-        {
-          "Position": {
-            "x": -0.7624313,
-            "y": 0.100000054,
-            "z": -0.307562053
-          }
-        },
-        {
-          "Position": {
-            "x": -0.82360363,
+            "x": 1.25013757,
             "y": 0.100000381,
-            "z": -0.6936206
+            "z": -0.4432736
           }
         },
         {
           "Position": {
-            "x": -1.09541535,
-            "y": 0.100002214,
-            "z": -0.362877429
+            "x": 0.9701585,
+            "y": 0.0999997854,
+            "z": -0.351567477
           }
         },
         {
           "Position": {
-            "x": -1.2475909,
-            "y": 0.100002348,
-            "z": -0.408994
+            "x": 0.9018959,
+            "y": 0.0999996662,
+            "z": -0.32914865
           }
         },
         {
           "Position": {
-            "x": -1.04454541,
-            "y": 0.100000978,
-            "z": -0.2611583
+            "x": 0.9013308,
+            "y": 0.09999931,
+            "z": -0.272688061
           }
         },
         {
           "Position": {
-            "x": -0.939211249,
-            "y": 0.10000053,
-            "z": -0.0318658166
+            "x": 0.757129967,
+            "y": 0.09999865,
+            "z": -0.217428535
           }
         },
         {
           "Position": {
-            "x": -1.26956069,
-            "y": 0.100000978,
-            "z": 0.0107636182
+            "x": 0.6991996,
+            "y": 0.0999999046,
+            "z": -0.3841155
           }
         },
         {
           "Position": {
-            "x": -1.37366247,
-            "y": 0.100000992,
-            "z": 0.393354416
+            "x": 0.743703,
+            "y": 0.0999999046,
+            "z": -0.495885342
           }
         },
         {
           "Position": {
-            "x": -1.03693759,
-            "y": 0.100000016,
-            "z": 0.379923135
+            "x": 0.244269028,
+            "y": 0.0999996662,
+            "z": -0.742816269
           }
         },
         {
           "Position": {
-            "x": 0.0128017664,
-            "y": 0.100000046,
-            "z": -0.514636338
+            "x": 0.07892565,
+            "y": 0.0999996662,
+            "z": -0.605425
           }
         },
         {
           "Position": {
-            "x": -0.0303764548,
-            "y": 0.09999996,
-            "z": -0.5348372
+            "x": 0.892565131,
+            "y": 0.0999983549,
+            "z": 0.000221082388
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5145826,
+            "y": 0.0999999046,
+            "z": 0.266750067
+          }
+        },
+        {
+          "Position": {
+            "x": 0.6477173,
+            "y": 0.100000381,
+            "z": 0.411954254
+          }
+        },
+        {
+          "Position": {
+            "x": -0.07415838,
+            "y": 0.0999996662,
+            "z": -0.691802859
+          }
+        },
+        {
+          "Position": {
+            "x": -0.0287687536,
+            "y": 0.09999895,
+            "z": -0.5357446
+          }
+        },
+        {
+          "Position": {
+            "x": 0.0141717037,
+            "y": 0.09999895,
+            "z": -0.516887
+          }
+        },
+        {
+          "Position": {
+            "x": -0.034907952,
+            "y": 0.0999999046,
+            "z": -0.4908758
+          }
+        },
+        {
+          "Position": {
+            "x": -0.253369927,
+            "y": 0.0999982357,
+            "z": -0.6595169
+          }
+        },
+        {
+          "Position": {
+            "x": -0.182932839,
+            "y": 0.0999999046,
+            "z": -0.484285146
+          }
+        },
+        {
+          "Position": {
+            "x": -0.19853048,
+            "y": 0.0999983549,
+            "z": -0.370127261
+          }
+        },
+        {
+          "Position": {
+            "x": 0.06172892,
+            "y": 0.09999949,
+            "z": -0.07562676
+          }
+        },
+        {
+          "Position": {
+            "x": -0.285258383,
+            "y": 0.09999928,
+            "z": 0.0137571869
+          }
+        },
+        {
+          "Position": {
+            "x": -0.21403487,
+            "y": 0.100000262,
+            "z": -0.33685866
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5822978,
+            "y": 0.09999943,
+            "z": -0.4161019
+          }
+        },
+        {
+          "Position": {
+            "x": -0.6359043,
+            "y": 0.0999997854,
+            "z": -0.220783234
+          }
+        },
+        {
+          "Position": {
+            "x": -0.8207136,
+            "y": 0.0999984741,
+            "z": -0.6957665
+          }
+        },
+        {
+          "Position": {
+            "x": -0.7598122,
+            "y": 0.100000262,
+            "z": -0.309148282
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9376873,
+            "y": 0.09999949,
+            "z": -0.0325835645
+          }
+        },
+        {
+          "Position": {
+            "x": -1.09279239,
+            "y": 0.09999955,
+            "z": -0.365412354
+          }
+        },
+        {
+          "Position": {
+            "x": -1.04212213,
+            "y": 0.0999996662,
+            "z": -0.263074845
+          }
+        },
+        {
+          "Position": {
+            "x": -1.24434257,
+            "y": 0.09999943,
+            "z": -0.4116597
+          }
+        },
+        {
+          "Position": {
+            "x": -1.26764166,
+            "y": 0.09999991,
+            "z": 0.0107142944
+          }
+        },
+        {
+          "Position": {
+            "x": -1.37104082,
+            "y": 0.100000143,
+            "z": 0.394409627
+          }
+        },
+        {
+          "Position": {
+            "x": -1.03354919,
+            "y": 0.100000024,
+            "z": 0.3780978
           }
         }
       ]
@@ -12848,9 +12570,9 @@
         "posX": -19.0004,
         "posY": 1.47986,
         "posZ": -4.4953,
-        "rotX": -1.20471185E-07,
+        "rotX": -1.24056825E-07,
         "rotY": 179.9995,
-        "rotZ": -1.555768E-07,
+        "rotZ": -1.59141862E-07,
         "scaleX": 2.17761946,
         "scaleY": 1.0,
         "scaleZ": 2.17761946
@@ -12899,9 +12621,9 @@
         "posX": 33.0,
         "posY": 1.57735968,
         "posZ": 14.0,
-        "rotX": -3.3293702E-08,
+        "rotX": -3.19957643E-08,
         "rotY": 180.0364,
-        "rotZ": 9.850024E-09,
+        "rotZ": 1.75683557E-08,
         "scaleX": 3.5,
         "scaleY": 1.0,
         "scaleZ": 3.5
@@ -13015,9 +12737,9 @@
         "posX": -34.5,
         "posY": 1.47986,
         "posZ": -5.0,
-        "rotX": 6.80579548E-09,
+        "rotX": 1.01032782E-08,
         "rotY": 180.0063,
-        "rotZ": 1.30967464E-07,
+        "rotZ": 1.2218959E-07,
         "scaleX": 4.308533,
         "scaleY": 1.0,
         "scaleZ": 4.308533
@@ -16385,9 +16107,9 @@
         "posX": 2.99990034,
         "posY": 1.72962391,
         "posZ": -7.0,
-        "rotX": 0.0108947009,
-        "rotY": 179.992035,
-        "rotZ": 180.004959,
+        "rotX": 0.0108951619,
+        "rotY": 179.992,
+        "rotZ": 180.004944,
         "scaleX": 0.649891436,
         "scaleY": 1.0,
         "scaleZ": 0.649891436
@@ -37364,9 +37086,9 @@
         "posX": -13.9808989,
         "posY": 0.9799978,
         "posZ": 44.499794,
-        "rotX": -4.52992526E-06,
+        "rotX": -4.54784777E-06,
         "rotY": 179.975464,
-        "rotZ": 1.25891256E-06,
+        "rotZ": 1.27824546E-06,
         "scaleX": 1.20052135,
         "scaleY": 0.249882281,
         "scaleZ": 1.3145982
@@ -41157,9 +40879,9 @@
         "posX": 17.5191021,
         "posY": 0.979997456,
         "posZ": 44.4998,
-        "rotX": -4.79157052E-06,
+        "rotX": -4.79757637E-06,
         "rotY": 180.000015,
-        "rotZ": 5.06268236E-08,
+        "rotZ": 3.44498581E-08,
         "scaleX": 1.20052135,
         "scaleY": 0.249882281,
         "scaleZ": 1.3145982
@@ -47859,9 +47581,9 @@
         "posX": -0.480897933,
         "posY": 0.979997635,
         "posZ": 44.49981,
-        "rotX": -4.636313E-06,
+        "rotX": -4.64707864E-06,
         "rotY": 180.000412,
-        "rotZ": 1.14810416E-06,
+        "rotZ": 1.14589614E-06,
         "scaleX": 1.20052135,
         "scaleY": 0.249882281,
         "scaleZ": 1.3145982
@@ -51568,15 +51290,293 @@
       ]
     },
     {
+      "GUID": "f1bddd",
+      "Name": "Custom_Model_Infinite_Bag",
+      "Transform": {
+        "posX": 13.6181,
+        "posY": 3.2654,
+        "posZ": 66.5639,
+        "rotX": 0.0213007983,
+        "rotY": 90.09421,
+        "rotZ": 344.7938,
+        "scaleX": 0.5750004,
+        "scaleY": 0.5750004,
+        "scaleZ": 0.5750004
+      },
+      "Nickname": "Épingles",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999821,
+        "b": 0.0939982
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1000305627040878554/39FD591BB074CA6ACFA5A0A86FB164912CBAD50F/",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 7,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 0.7,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.8937501,
+        "Drag": 0.1,
+        "AngularDrag": 90.0,
+        "UseGravity": true
+      },
+      "ContainedObjects": [
+        {
+          "GUID": "a24494",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 13.2483416,
+            "posY": 2.23304129,
+            "posZ": 66.58296,
+            "rotX": 359.7572,
+            "rotY": 179.814178,
+            "rotZ": 344.895935,
+            "scaleX": 0.400000453,
+            "scaleY": 0.400000453,
+            "scaleZ": 0.400000453
+          },
+          "Nickname": "Destination actuelle",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.856,
+            "g": 0.09999832,
+            "b": 0.09399832
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1000305627040878554/39FD591BB074CA6ACFA5A0A86FB164912CBAD50F/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 1.0,
+            "DynamicFriction": 0.7,
+            "Bounciness": 0.0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.8500001,
+            "Drag": 0.1,
+            "AngularDrag": 90.0,
+            "UseGravity": true
+          },
+          "States": {
+            "2": {
+              "GUID": "0c920a",
+              "Name": "Custom_Model",
+              "Transform": {
+                "posX": 18.24142,
+                "posY": -1.13366282,
+                "posZ": 66.5072556,
+                "rotX": 359.922516,
+                "rotY": 270.309662,
+                "rotZ": 15.0985327,
+                "scaleX": 0.400000453,
+                "scaleY": 0.400000453,
+                "scaleZ": 0.400000453
+              },
+              "Nickname": "Destination visitée",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.249999583,
+                "g": 0.249999583,
+                "b": 0.249999583
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomMesh": {
+                "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1000305627040878554/39FD591BB074CA6ACFA5A0A86FB164912CBAD50F/",
+                "DiffuseURL": "",
+                "NormalURL": "",
+                "ColliderURL": "",
+                "Convex": true,
+                "MaterialIndex": 0,
+                "TypeIndex": 1,
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "PhysicsMaterial": {
+                "StaticFriction": 1.0,
+                "DynamicFriction": 0.7,
+                "Bounciness": 0.0,
+                "FrictionCombine": 0,
+                "BounceCombine": 0
+              },
+              "Rigidbody": {
+                "Mass": 0.8500001,
+                "Drag": 0.1,
+                "AngularDrag": 90.0,
+                "UseGravity": true
+              }
+            },
+            "3": {
+              "GUID": "b59183",
+              "Name": "Custom_Model",
+              "Transform": {
+                "posX": 15.5001431,
+                "posY": -0.9961394,
+                "posZ": 67.01639,
+                "rotX": 359.8753,
+                "rotY": 270.485046,
+                "rotZ": 15.2505426,
+                "scaleX": 0.400000453,
+                "scaleY": 0.400000453,
+                "scaleZ": 0.400000453
+              },
+              "Nickname": "Destination dévérouillée",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.3461043,
+                "b": 0.750871
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomMesh": {
+                "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1000305627040878554/39FD591BB074CA6ACFA5A0A86FB164912CBAD50F/",
+                "DiffuseURL": "",
+                "NormalURL": "",
+                "ColliderURL": "",
+                "Convex": true,
+                "MaterialIndex": 0,
+                "TypeIndex": 1,
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "PhysicsMaterial": {
+                "StaticFriction": 1.0,
+                "DynamicFriction": 0.7,
+                "Bounciness": 0.0,
+                "FrictionCombine": 0,
+                "BounceCombine": 0
+              },
+              "Rigidbody": {
+                "Mass": 0.8500001,
+                "Drag": 0.1,
+                "AngularDrag": 90.0,
+                "UseGravity": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
       "GUID": "fb919c",
       "Name": "Custom_Model_Bag",
       "Transform": {
         "posX": -62.4809952,
         "posY": 1.05000246,
         "posZ": -5.49740362,
-        "rotX": 5.275126E-06,
+        "rotX": 5.30920852E-06,
         "rotY": -0.003971155,
-        "rotZ": -4.450054E-07,
+        "rotZ": -4.24751079E-07,
         "scaleX": 0.7,
         "scaleY": 0.7,
         "scaleZ": 0.7
